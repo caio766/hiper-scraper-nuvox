@@ -1,8 +1,8 @@
 ﻿const fs = require('fs');
 
+// Mantenha em 'true' para testar a estrutura. Mude para 'false' quando for rodar os 300k.
 const MODO_TESTE = true;
 const NUMERO_JOB = process.argv[2] || 1; 
-// Puxa o token injetado pelo GitHub Actions
 const TOKEN_AUTH = process.env.TOKEN_AUTH; 
 
 async function iniciarScraper() {
@@ -40,7 +40,17 @@ async function iniciarScraper() {
             const obra = await respDetalhes.json();
             const capitulos = obra.capitulos || [];
             
-            const dadosObra = { obra_id: obra.obr_id, titulo: obra.obr_nome, capitulos: [] };
+            // ✨ CONFIGURAÇÃO CORRIGIDA: Inclusão completa de todos os metadados da obra
+            const dadosObra = {
+                obra_id: obra.obr_id,
+                titulo: obra.obr_nome,
+                sinopse: obra.obr_descricao || null,
+                capa_url: obra.obr_imagem ? `https://back.mediocrescan.com/media/obras/${obra.obr_id}/capa?f=${obra.obr_imagem}&q=40&fit=cover&w=600` : null,
+                tipo: obra.formato ? obra.formato.formt_nome : "Desconhecido",
+                tags: obra.tags ? obra.tags.map(tag => tag.tag_nome) : [],
+                capitulos: []
+            };
+
             const capitulosAlvo = MODO_TESTE ? capitulos.slice(0, 2) : capitulos;
 
             for (const cap of capitulosAlvo) {
@@ -53,7 +63,10 @@ async function iniciarScraper() {
                 const respCdn = await fetch(`https://cdn.mediocrescan.com/obras/${idObra}/capitulos/${cap.cap_num}/${capUuid}.json`, { headers: headersBase });
                 if (respCdn.ok) {
                     const imagens = await respCdn.json();
-                    dadosObra.capitulos.push({ numero: cap.cap_num, paginas: imagens.map(img => `https://cdn.mediocrescan.com/${img.url}`) });
+                    dadosObra.capitulos.push({ 
+                        numero: cap.cap_num, 
+                        paginas: imagens.map(img => `https://cdn.mediocrescan.com/${img.url}`) 
+                    });
                     console.log(`   ✅ Cap ${cap.cap_num} extraído com sucesso!`);
                 }
                 await new Promise(r => setTimeout(r, 500)); 
@@ -62,5 +75,6 @@ async function iniciarScraper() {
         } catch (erro) { console.log(`❌ Erro: ${erro.message}`); }
     }
     fs.writeFileSync(`resultados/resultado_job_${NUMERO_JOB}.json`, JSON.stringify(resultadoFinal, null, 2), 'utf-8');
+    console.log(`🎉 [Job ${NUMERO_JOB}] Finalizado com sucesso!`);
 }
 iniciarScraper();
