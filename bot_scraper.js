@@ -1,7 +1,7 @@
 ﻿const fs = require('fs');
 
 // Mantenha em 'true' para testar a estrutura. Mude para 'false' quando for rodar os 300k.
-const MODO_TESTE = true;
+const MODO_TESTE = false;
 const NUMERO_JOB = process.argv[2] || 1; 
 const TOKEN_AUTH = process.env.TOKEN_AUTH; 
 
@@ -78,3 +78,4 @@ async function iniciarScraper() {
     console.log(`🎉 [Job ${NUMERO_JOB}] Finalizado com sucesso!`);
 }
 iniciarScraper();
+
