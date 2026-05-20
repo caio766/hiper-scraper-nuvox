@@ -1,11 +1,18 @@
 ﻿const fs = require('fs');
 
-// 🔥 CHAVE DE SEGURANÇA: Mude para 'false' depois de testar
 const MODO_TESTE = true;
 const NUMERO_JOB = process.argv[2] || 1; 
+// Puxa o token injetado pelo GitHub Actions
+const TOKEN_AUTH = process.env.TOKEN_AUTH; 
 
 async function iniciarScraper() {
     console.log(`🤖 [Job ${NUMERO_JOB}] Iniciado!`);
+    
+    if (!TOKEN_AUTH) {
+        console.log("❌ ERRO FATAL: Token mestre não recebido!");
+        return;
+    }
+
     let idsParaProcessar = JSON.parse(fs.readFileSync(`dados/chunk_${NUMERO_JOB}.json`, 'utf-8'));
     
     if (MODO_TESTE) {
@@ -18,14 +25,9 @@ async function iniciarScraper() {
         "Accept": "application/json, text/plain, */*",
         "Origin": "https://mediocrescan.com",
         "Referer": "https://mediocrescan.com/",
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${TOKEN_AUTH}`
     };
-
-    const respostaLogin = await fetch("https://back.mediocrescan.com/auth/login", {
-        method: "POST", headers: headersBase,
-        body: JSON.stringify({ email: "caiooriginal66@gmail.com", senha: "caioriginal66" })
-    });
-    headersBase["Authorization"] = `Bearer ${(await respostaLogin.json()).token}`;
 
     const resultadoFinal = [];
 
@@ -33,31 +35,28 @@ async function iniciarScraper() {
         console.log(`👉 Processando Obra ID: ${idObra}`);
         try {
             const respDetalhes = await fetch(`https://back.mediocrescan.com/obras/${idObra}`, { headers: headersBase });
-            if (!respDetalhes.ok) continue;
+            if (!respDetalhes.ok) { console.log(`❌ Erro detalhes. HTTP ${respDetalhes.status}`); continue; }
             
             const obra = await respDetalhes.json();
             const capitulos = obra.capitulos || [];
             
-            const dadosObra = {
-                obra_id: obra.obr_id,
-                titulo: obra.obr_nome,
-                capitulos: []
-            };
-
+            const dadosObra = { obra_id: obra.obr_id, titulo: obra.obr_nome, capitulos: [] };
             const capitulosAlvo = MODO_TESTE ? capitulos.slice(0, 2) : capitulos;
 
             for (const cap of capitulosAlvo) {
                 const respBackend = await fetch(`https://back.mediocrescan.com/capitulos/${cap.cap_id}`, { headers: headersBase });
-                if (!respBackend.ok) continue;
+                if (!respBackend.ok) { console.log(`❌ Erro cap ${cap.cap_num}`); continue; }
+                
                 const capUuid = (await respBackend.json()).cap_uuid;
+                if (!capUuid) continue;
                 
                 const respCdn = await fetch(`https://cdn.mediocrescan.com/obras/${idObra}/capitulos/${cap.cap_num}/${capUuid}.json`, { headers: headersBase });
                 if (respCdn.ok) {
                     const imagens = await respCdn.json();
                     dadosObra.capitulos.push({ numero: cap.cap_num, paginas: imagens.map(img => `https://cdn.mediocrescan.com/${img.url}`) });
-                    console.log(`   ✅ Cap ${cap.cap_num} extraído!`);
+                    console.log(`   ✅ Cap ${cap.cap_num} extraído com sucesso!`);
                 }
-                await new Promise(r => setTimeout(r, 500)); // Delay seguro
+                await new Promise(r => setTimeout(r, 500)); 
             }
             resultadoFinal.push(dadosObra);
         } catch (erro) { console.log(`❌ Erro: ${erro.message}`); }
