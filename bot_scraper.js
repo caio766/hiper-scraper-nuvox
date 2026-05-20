@@ -1,9 +1,12 @@
 ﻿const fs = require('fs');
 
-// Mantenha em 'true' para testar a estrutura. Mude para 'false' quando for rodar os 300k.
-const MODO_TESTE = false;
+const MODO_TESTE = false; // Pronto para carga máxima
 const NUMERO_JOB = process.argv[2] || 1; 
 const TOKEN_AUTH = process.env.TOKEN_AUTH; 
+
+// ⏱️ RELÓGIO DE PONTO: 55 minutos para não perder o Token
+const tempoInicio = Date.now();
+const LIMITE_TEMPO_MS = 55 * 60 * 1000; 
 
 async function iniciarScraper() {
     console.log(`🤖 [Job ${NUMERO_JOB}] Iniciado!`);
@@ -32,6 +35,13 @@ async function iniciarScraper() {
     const resultadoFinal = [];
 
     for (const idObra of idsParaProcessar) {
+        // 🔥 VERIFICAÇÃO DE TEMPO DE VIDA ANTES DE CADA OBRA
+        if (Date.now() - tempoInicio > LIMITE_TEMPO_MS) {
+            console.log("⏱️ ALERTA: Limite de 55 minutos atingido! O Token está prestes a expirar.");
+            console.log("💾 Acionando Checkpoint. Fechando o pacote com o que foi extraído até agora.");
+            break; 
+        }
+
         console.log(`👉 Processando Obra ID: ${idObra}`);
         try {
             const respDetalhes = await fetch(`https://back.mediocrescan.com/obras/${idObra}`, { headers: headersBase });
@@ -40,7 +50,6 @@ async function iniciarScraper() {
             const obra = await respDetalhes.json();
             const capitulos = obra.capitulos || [];
             
-            // ✨ CONFIGURAÇÃO CORRIGIDA: Inclusão completa de todos os metadados da obra
             const dadosObra = {
                 obra_id: obra.obr_id,
                 titulo: obra.obr_nome,
@@ -51,9 +60,7 @@ async function iniciarScraper() {
                 capitulos: []
             };
 
-            const capitulosAlvo = MODO_TESTE ? capitulos.slice(0, 2) : capitulos;
-
-            for (const cap of capitulosAlvo) {
+            for (const cap of capitulos) {
                 const respBackend = await fetch(`https://back.mediocrescan.com/capitulos/${cap.cap_id}`, { headers: headersBase });
                 if (!respBackend.ok) { console.log(`❌ Erro cap ${cap.cap_num}`); continue; }
                 
@@ -67,15 +74,15 @@ async function iniciarScraper() {
                         numero: cap.cap_num, 
                         paginas: imagens.map(img => `https://cdn.mediocrescan.com/${img.url}`) 
                     });
-                    console.log(`   ✅ Cap ${cap.cap_num} extraído com sucesso!`);
+                    console.log(`   ✅ Cap ${cap.cap_num} extraído!`);
                 }
                 await new Promise(r => setTimeout(r, 500)); 
             }
             resultadoFinal.push(dadosObra);
         } catch (erro) { console.log(`❌ Erro: ${erro.message}`); }
     }
+    
     fs.writeFileSync(`resultados/resultado_job_${NUMERO_JOB}.json`, JSON.stringify(resultadoFinal, null, 2), 'utf-8');
-    console.log(`🎉 [Job ${NUMERO_JOB}] Finalizado com sucesso!`);
+    console.log(`🎉 [Job ${NUMERO_JOB}] Checkpoint salvo com sucesso!`);
 }
 iniciarScraper();
-
