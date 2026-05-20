@@ -1,0 +1,22 @@
+﻿name: Hiper Scraper Nuvoxtoons
+on:
+  workflow_dispatch:
+jobs:
+  scrape_mangas:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        part: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+      fail-fast: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: mkdir -p resultados
+      - run: node bot_scraper.js ${{ matrix.part }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Extrato_Lote_${{ matrix.part }}
+          path: resultados/resultado_job_${{ matrix.part }}.json
+          retention-days: 3
