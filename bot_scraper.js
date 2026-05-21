@@ -1,10 +1,9 @@
 ﻿const fs = require('fs');
 
-const MODO_TESTE = false; // Pronto para carga máxima
+const MODO_TESTE = false;
 const NUMERO_JOB = process.argv[2] || 1; 
 const TOKEN_AUTH = process.env.TOKEN_AUTH; 
 
-// ⏱️ RELÓGIO DE PONTO: 22 minutos para não perder o Token
 const tempoInicio = Date.now();
 const LIMITE_TEMPO_MS = 22 * 60 * 1000; 
 
@@ -18,11 +17,6 @@ async function iniciarScraper() {
 
     let idsParaProcessar = JSON.parse(fs.readFileSync(`dados/chunk_${NUMERO_JOB}.json`, 'utf-8'));
     
-    if (MODO_TESTE) {
-        console.log(`⚠️ MODO TESTE ATIVADO: Reduzindo para apenas 1 ID.`);
-        idsParaProcessar = idsParaProcessar.slice(0, 1);
-    }
-
     const headersBase = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
         "Accept": "application/json, text/plain, */*",
@@ -33,12 +27,12 @@ async function iniciarScraper() {
     };
 
     const resultadoFinal = [];
+    let tempoEsgotado = false; // 🔥 Nova trava de segurança global
 
     for (const idObra of idsParaProcessar) {
-        // 🔥 VERIFICAÇÃO DE TEMPO DE VIDA ANTES DE CADA OBRA
-        if (Date.now() - tempoInicio > LIMITE_TEMPO_MS) {
-            console.log("⏱️ ALERTA: Limite de 22 minutos atingido! O Token está prestes a expirar.");
-            console.log("💾 Acionando Checkpoint. Fechando o pacote com o que foi extraído até agora.");
+        // Trava Externa
+        if (tempoEsgotado || Date.now() - tempoInicio > LIMITE_TEMPO_MS) {
+            console.log("⏱️ ALERTA: Relógio apitou antes de começar nova obra. Acionando Checkpoint!");
             break; 
         }
 
@@ -61,6 +55,13 @@ async function iniciarScraper() {
             };
 
             for (const cap of capitulos) {
+                // 🔥 NOVA TRAVA INTERNA: Corta a extração no meio do mangá se o tempo acabar
+                if (Date.now() - tempoInicio > LIMITE_TEMPO_MS) {
+                    console.log(`⏱️ ALERTA CRÍTICO: 22 minutos atingidos durante a obra ${idObra}! Cortando a extração na metade para salvar os dados...`);
+                    tempoEsgotado = true;
+                    break; // Sai imediatamente do loop de capítulos
+                }
+
                 const respBackend = await fetch(`https://back.mediocrescan.com/capitulos/${cap.cap_id}`, { headers: headersBase });
                 if (!respBackend.ok) { console.log(`❌ Erro cap ${cap.cap_num}`); continue; }
                 
@@ -78,7 +79,13 @@ async function iniciarScraper() {
                 }
                 await new Promise(r => setTimeout(r, 500)); 
             }
+            
+            // Salva a obra, mesmo que ela tenha sido cortada pela metade
             resultadoFinal.push(dadosObra);
+            
+            // Se o tempo esgotou lá dentro do mangá, quebra o loop mestre também
+            if (tempoEsgotado) break; 
+
         } catch (erro) { console.log(`❌ Erro: ${erro.message}`); }
     }
     
@@ -86,4 +93,3 @@ async function iniciarScraper() {
     console.log(`🎉 [Job ${NUMERO_JOB}] Checkpoint salvo com sucesso!`);
 }
 iniciarScraper();
-
