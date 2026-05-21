@@ -4,9 +4,9 @@ const MODO_TESTE = false; // Pronto para carga máxima
 const NUMERO_JOB = process.argv[2] || 1; 
 const TOKEN_AUTH = process.env.TOKEN_AUTH; 
 
-// ⏱️ RELÓGIO DE PONTO: 55 minutos para não perder o Token
+// ⏱️ RELÓGIO DE PONTO: 22 minutos para não perder o Token
 const tempoInicio = Date.now();
-const LIMITE_TEMPO_MS = 55 * 60 * 1000; 
+const LIMITE_TEMPO_MS = 22 * 60 * 1000; 
 
 async function iniciarScraper() {
     console.log(`🤖 [Job ${NUMERO_JOB}] Iniciado!`);
@@ -37,7 +37,7 @@ async function iniciarScraper() {
     for (const idObra of idsParaProcessar) {
         // 🔥 VERIFICAÇÃO DE TEMPO DE VIDA ANTES DE CADA OBRA
         if (Date.now() - tempoInicio > LIMITE_TEMPO_MS) {
-            console.log("⏱️ ALERTA: Limite de 55 minutos atingido! O Token está prestes a expirar.");
+            console.log("⏱️ ALERTA: Limite de 22 minutos atingido! O Token está prestes a expirar.");
             console.log("💾 Acionando Checkpoint. Fechando o pacote com o que foi extraído até agora.");
             break; 
         }
@@ -86,3 +86,4 @@ async function iniciarScraper() {
     console.log(`🎉 [Job ${NUMERO_JOB}] Checkpoint salvo com sucesso!`);
 }
 iniciarScraper();
+
