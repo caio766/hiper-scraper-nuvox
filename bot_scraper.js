@@ -77,7 +77,7 @@ async function iniciarScraper() {
                     });
                     console.log(`   ✅ Cap ${cap.cap_num} extraído!`);
                 }
-                await new Promise(r => setTimeout(r, 500)); 
+                await new Promise(r => setTimeout(r, 1000)); 
             }
             
             // Salva a obra, mesmo que ela tenha sido cortada pela metade
@@ -93,3 +93,4 @@ async function iniciarScraper() {
     console.log(`🎉 [Job ${NUMERO_JOB}] Checkpoint salvo com sucesso!`);
 }
 iniciarScraper();
+
