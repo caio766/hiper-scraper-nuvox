@@ -14,16 +14,20 @@ try {
         const tamanhoLote = Math.ceil(listaProxies.length / 20);
         proxiesDoJob = listaProxies.slice((NUMERO_JOB - 1) * tamanhoLote, NUMERO_JOB * tamanhoLote);
     }
-} catch (e) { console.log("⚠️ Sem proxies."); }
+} catch (e) {}
+
+// 🔥 NOVO: Carregando a memória da operação anterior
+let progressoAnterior = {};
+try {
+    progressoAnterior = JSON.parse(fs.readFileSync('progresso_obras.json', 'utf-8'));
+} catch(e) { console.log("⚠️ Mapa de progresso não encontrado. Iniciando do zero."); }
 
 let indiceProxy = 0;
 function getFetchOptions(headersBase, method = "GET") {
     const config = { method, headers: headersBase };
     if (proxiesDoJob.length === 0) return config;
-
     const proxyAtual = proxiesDoJob[indiceProxy % proxiesDoJob.length];
     indiceProxy++;
-
     const partes = proxyAtual.split(':');
     if (partes.length === 4) {
         config.agent = new HttpsProxyAgent(`http://${partes[2]}:${partes[3]}@${partes[0]}:${partes[1]}`);
@@ -34,12 +38,9 @@ function getFetchOptions(headersBase, method = "GET") {
 }
 
 async function iniciarScraper() {
-    console.log(`🤖 [Job ${NUMERO_JOB}] Iniciado com ${proxiesDoJob.length} Proxies e Token Mestre!`);
+    console.log(`🤖 [Job ${NUMERO_JOB}] Iniciado. Sistema de Evasão Ativo!`);
     
-    if (!TOKEN_AUTH) {
-        console.log("❌ ERRO FATAL: Token Mestre não foi recebido do GitHub!");
-        return;
-    }
+    if (!TOKEN_AUTH) return console.log("❌ ERRO FATAL: Token Mestre não recebido!");
 
     const headersBase = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
@@ -63,16 +64,17 @@ async function iniciarScraper() {
             const obra = await respDetalhes.json();
             const capitulos = obra.capitulos || [];
             
-            const dadosObra = {
-                obra_id: obra.obr_id,
-                titulo: obra.obr_nome,
-                capitulos: []
-            };
+            const dadosObra = { obra_id: obra.obr_id, titulo: obra.obr_nome, capitulos: [] };
 
             for (const cap of capitulos) {
                 if (Date.now() - tempoInicio > LIMITE_TEMPO_MS) {
-                    tempoEsgotado = true;
-                    break; 
+                    tempoEsgotado = true; break; 
+                }
+
+                // 🔥 NOVO: Auditoria Cirúrgica. Se já temos o capítulo no Banco Central, ele é pulado instantaneamente.
+                if (progressoAnterior[idObra] && progressoAnterior[idObra].includes(cap.cap_num)) {
+                    console.log(`   ⏭️ Cap ${cap.cap_num} já extraído. Pulando...`);
+                    continue;
                 }
 
                 const respBackend = await fetch(`https://back.mediocrescan.com/capitulos/${cap.cap_id}`, getFetchOptions(headersBase));
@@ -80,11 +82,9 @@ async function iniciarScraper() {
                 if (!respBackend.ok) { 
                     const erroTexto = await respBackend.text();
                     console.log(`❌ Erro cap ${cap.cap_num} (HTTP ${respBackend.status}) -> Detalhe: ${erroTexto}`);
-                    
                     if (respBackend.status === 401) {
-                        console.log("💀 TOKEN MESTRE MORREU! Evacuando os dados salvos imediatamente...");
-                        tempoEsgotado = true; 
-                        break; 
+                        console.log("💀 TOKEN MESTRE MORREU! Evacuando os dados salvos...");
+                        tempoEsgotado = true; break; 
                     }
                     continue; 
                 }
@@ -103,7 +103,8 @@ async function iniciarScraper() {
                 }
                 await new Promise(r => setTimeout(r, 200)); 
             }
-            resultadoFinal.push(dadosObra);
+            // Só adiciona a obra ao JSON final se ela baixou algum capítulo novo
+            if (dadosObra.capitulos.length > 0) resultadoFinal.push(dadosObra);
             if (tempoEsgotado) break; 
 
         } catch (erro) { console.log(`❌ Erro na obra ${idObra}: ${erro.message}`); }
