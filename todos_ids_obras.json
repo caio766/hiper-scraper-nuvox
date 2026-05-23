@@ -1,18 +1,4 @@
 {
-  "estatisticas": {
-    "total_requisicoes_feitas": 70,
-    "total_obras_encontradas": 4251,
-    "formatos_pesquisados": [
-      1,
-      3,
-      4,
-      5,
-      8,
-      9,
-      13
-    ],
-    "data_extracao": "2026-05-21T12:34:16.256Z"
-  },
   "obras": [
     {
       "id": 19046,
@@ -207,6 +193,12 @@
       "formato": "English"
     },
     {
+      "id": 18036,
+      "nome": "teste",
+      "slug": "teste-8088",
+      "formato": "English"
+    },
+    {
       "id": 19550,
       "nome": "Kusunoki Fracassou em Estrear no Ensino Médio",
       "slug": "kusunoki-fracassou-em-estrear-no-ensino-medio",
@@ -349,6 +341,12 @@
       "nome": "Século da Rebelião",
       "slug": "seculo-da-rebeliao",
       "formato": "Manga"
+    },
+    {
+      "id": 19646,
+      "nome": "Um Romance Começa com a Criação dos Filhos",
+      "slug": "um-romance-comeca-com-a-criacao-dos-filhos",
+      "formato": "Shoujo"
     },
     {
       "id": 19645,
@@ -1245,910 +1243,904 @@
       "formato": "Shoujo"
     },
     {
-      "id": 18552,
-      "nome": "Laranja Danificada",
-      "slug": "laranja-danificada",
-      "formato": "Shoujo"
+      "id": 17686,
+      "nome": "Uma História de Amor Não Tão Shoujo",
+      "slug": "uma-historia-de-amor-nao-tao-shoujo",
+      "formato": "Yuri"
     },
     {
-      "id": 19644,
-      "nome": "Me Tornei o Rebelde da Família Necromante",
-      "slug": "me-tornei-o-rebelde-da-familia-necromante",
-      "formato": "Comic"
+      "id": 17663,
+      "nome": "Mago & Rainha Demônio",
+      "slug": "mago-rainha-demonio",
+      "formato": "Yuri"
     },
     {
-      "id": 19643,
-      "nome": "O Prodígio Mais Forte do Mundo Retorna Para Desafiar a Extinção",
-      "slug": "o-prodigio-mais-forte-do-mundo-retorna-para-desafiar-a-extincao",
-      "formato": "Comic"
+      "id": 17463,
+      "nome": "Melífluo (Enjelicioso)",
+      "slug": "melifluo-enjelicioso",
+      "formato": "Yuri"
     },
     {
-      "id": 19642,
-      "nome": "O Rebelde da Nobre Família Tirana",
-      "slug": "o-rebelde-da-nobre-familia-tirana",
-      "formato": "Comic"
+      "id": 17462,
+      "nome": "Lumi White",
+      "slug": "lumi-white",
+      "formato": "Yuri"
     },
     {
-      "id": 19641,
-      "nome": "Quando a noite cai",
-      "slug": "quando-a-noite-cai",
-      "formato": "Comic"
+      "id": 17461,
+      "nome": "Amor cintilação",
+      "slug": "amor-cintilacao",
+      "formato": "Yuri"
     },
     {
-      "id": 19640,
-      "nome": "A Lenda do Último Fracote",
-      "slug": "a-lenda-do-ultimo-fracote",
-      "formato": "Comic"
+      "id": 17460,
+      "nome": "palavras",
+      "slug": "palavras",
+      "formato": "Yuri"
     },
     {
-      "id": 19638,
-      "nome": "Minha Namorada",
-      "slug": "minha-namorada-1",
-      "formato": "Comic"
+      "id": 17459,
+      "nome": "Garota meio assada",
+      "slug": "garota-meio-assada",
+      "formato": "Yuri"
     },
     {
-      "id": 19637,
-      "nome": "Soberano das Cem Lâminas: Herdeiro do Estilo Mais Forte",
-      "slug": "soberano-das-cem-laminas-herdeiro-do-estilo-mais-forte",
-      "formato": "Comic"
+      "id": 17458,
+      "nome": "Hana e Hina depois da escola",
+      "slug": "hana-e-hina-depois-da-escola",
+      "formato": "Yuri"
     },
     {
-      "id": 19636,
-      "nome": "Reencarnado como o filho caçula de uma família de espadachins demoníacos.",
-      "slug": "reencarnado-como-o-filho-cacula-de-uma-familia-de-espadachins-demoniacos",
-      "formato": "Comic"
+      "id": 17457,
+      "nome": "Não posso contar a ninguém, só nós dois",
+      "slug": "nao-posso-contar-a-ninguem-so-nos-dois",
+      "formato": "Yuri"
     },
     {
-      "id": 19635,
-      "nome": "Delivery Da Luta",
-      "slug": "delivery-da-luta",
-      "formato": "Comic"
+      "id": 17456,
+      "nome": "Batwoman – Os Novos 52",
+      "slug": "batwoman-os-novos-52",
+      "formato": "Yuri"
     },
     {
-      "id": 19634,
-      "nome": "Veterano do Apocalipse",
-      "slug": "veterano-do-apocalipse",
-      "formato": "Comic"
+      "id": 17455,
+      "nome": "Asagao e Toki-san",
+      "slug": "asagao-e-toki-san",
+      "formato": "Yuri"
     },
     {
-      "id": 19633,
-      "nome": "Mestre Sombrio — A Lenda do Poder Absoluto",
-      "slug": "mestre-sombrio-a-lenda-do-poder-absoluto",
-      "formato": "Comic"
+      "id": 17454,
+      "nome": "torna-se a gema",
+      "slug": "torna-se-a-gema",
+      "formato": "Yuri"
     },
     {
-      "id": 19632,
-      "nome": "Seu Guarda Costas Particular",
-      "slug": "seu-guarda-costas-particular-1",
-      "formato": "Comic"
+      "id": 17453,
+      "nome": "Armadilha Netsuzou – NTR",
+      "slug": "armadilha-netsuzou-ntr",
+      "formato": "Yuri"
     },
     {
-      "id": 19626,
-      "nome": "Um Homem de Verdade",
-      "slug": "um-homem-de-verdade",
-      "formato": "Comic"
+      "id": 17452,
+      "nome": "Casa da Empregada (Montana)",
+      "slug": "casa-da-empregada-montana",
+      "formato": "Yuri"
     },
     {
-      "id": 19625,
-      "nome": "O Retorno do Discípulo Sênior Lee Hoo",
-      "slug": "o-retorno-do-discipulo-senior-lee-hoo",
-      "formato": "Comic"
+      "id": 17451,
+      "nome": "Lily Love 2 (Ratana Satis)",
+      "slug": "lily-love-2-ratana-satis",
+      "formato": "Yuri"
     },
     {
-      "id": 19624,
-      "nome": "Sou Amaldiçoado, Mas a Santa Lendária Virou Minha Aliada",
-      "slug": "sou-amaldicoado-mas-a-santa-lendaria-virou-minha-aliada-1",
-      "formato": "Comic"
+      "id": 17450,
+      "nome": "Se esse desejo se tornar realidade",
+      "slug": "se-esse-desejo-se-tornar-realidade",
+      "formato": "Yuri"
     },
     {
-      "id": 19623,
-      "nome": "Sou Amaldiçoado, Mas a Santa Lendária Virou Minha Aliada",
-      "slug": "sou-amaldicoado-mas-a-santa-lendaria-virou-minha-aliada",
-      "formato": "Comic"
+      "id": 17449,
+      "nome": "Meu hobby é estranho?",
+      "slug": "meu-hobby-e-estranho",
+      "formato": "Yuri"
     },
     {
-      "id": 19622,
-      "nome": "No Jogo da Morte, Só Eu Conheço os Monstros",
-      "slug": "no-jogo-da-morte-so-eu-conheco-os-monstros",
-      "formato": "Comic"
+      "id": 17448,
+      "nome": "Amigas",
+      "slug": "amigas",
+      "formato": "Yuri"
     },
     {
-      "id": 19619,
-      "nome": "A Crônica da Guerra de Lodoss: A Rainha Necromante",
-      "slug": "a-cronica-da-guerra-de-lodoss-a-rainha-necromante",
-      "formato": "Comic"
+      "id": 17447,
+      "nome": "Irmãs do primeiro amor",
+      "slug": "irmas-do-primeiro-amor",
+      "formato": "Yuri"
     },
     {
-      "id": 19618,
-      "nome": "Renascimento do Rei Zhou: Não serei mais um Vilão",
-      "slug": "renascimento-do-rei-zhou-nao-serei-mais-um-vilao",
-      "formato": "Comic"
+      "id": 17446,
+      "nome": "Clube (KatotoChan)",
+      "slug": "clube-katotochan",
+      "formato": "Yuri"
     },
     {
-      "id": 19616,
-      "nome": "Limpeza - Serviços de limpeza",
-      "slug": "limpeza-servicos-de-limpeza-7592",
-      "formato": "Comic"
+      "id": 17445,
+      "nome": "Cirque Aracne",
+      "slug": "cirque-aracne-3862",
+      "formato": "Yuri"
     },
     {
-      "id": 19614,
-      "nome": "O Genro Assassino",
-      "slug": "o-genro-assassino",
-      "formato": "Comic"
+      "id": 17444,
+      "nome": "Amigo Azul",
+      "slug": "amigo-azul",
+      "formato": "Yuri"
     },
     {
-      "id": 19613,
-      "nome": "Quem Assassinou o Líder da Aliança Murim?",
-      "slug": "quem-assassinou-o-lider-da-alianca-murim",
-      "formato": "Comic"
+      "id": 17443,
+      "nome": "Sequência de florescimento (Lee Eul)",
+      "slug": "sequencia-de-florescimento-lee-eul",
+      "formato": "Yuri"
     },
     {
-      "id": 19612,
-      "nome": "O Mundo é Poder e Dinheiro",
-      "slug": "o-mundo-e-poder-e-dinheiro",
-      "formato": "Comic"
+      "id": 17442,
+      "nome": "Duas vidas na mesma casa (Yul-Seo)",
+      "slug": "duas-vidas-na-mesma-casa-yul-seo",
+      "formato": "Yuri"
     },
     {
-      "id": 19610,
-      "nome": "O Retorno do Professor Runebound",
-      "slug": "o-retorno-do-professor-runebound",
-      "formato": "Comic"
+      "id": 17441,
+      "nome": "The Legend of Korra: Guerras Territoriais",
+      "slug": "the-legend-of-korra-guerras-territoriais",
+      "formato": "Yuri"
     },
     {
-      "id": 19609,
-      "nome": "Invasão do Submundo",
-      "slug": "invasao-do-submundo",
-      "formato": "Comic"
+      "id": 17440,
+      "nome": "Partição (chá aconchegante)",
+      "slug": "particao-cha-aconchegante",
+      "formato": "Yuri"
     },
     {
-      "id": 19608,
-      "nome": "Necromante do Clã da Espada",
-      "slug": "necromante-do-cla-da-espada",
-      "formato": "Comic"
+      "id": 17439,
+      "nome": "Minha Alegria (Pito)",
+      "slug": "minha-alegria-pito",
+      "formato": "Yuri"
     },
     {
-      "id": 19607,
-      "nome": "A Academia Está Condenada",
-      "slug": "a-academia-esta-condenada",
-      "formato": "Comic"
+      "id": 17438,
+      "nome": "Jardim ao Luar",
+      "slug": "jardim-ao-luar",
+      "formato": "Yuri"
     },
     {
-      "id": 19606,
-      "nome": "O Segredo de Jae-Kyung",
-      "slug": "o-segredo-de-jae-kyung",
-      "formato": "Comic"
+      "id": 17437,
+      "nome": "Liming you xing Chen (sem TB)",
+      "slug": "liming-you-xing-chen-sem-tb",
+      "formato": "Yuri"
     },
     {
-      "id": 19603,
-      "nome": "Desafio da Queda",
-      "slug": "desafio-da-queda",
-      "formato": "Comic"
+      "id": 17436,
+      "nome": "Seria ótimo se você não existisse (Carbonara)",
+      "slug": "seria-otimo-se-voce-nao-existisse-carbonara",
+      "formato": "Yuri"
     },
     {
-      "id": 19601,
-      "nome": "Assaltei o Cofre dos Deuses",
-      "slug": "assaltei-o-cofre-dos-deuses",
-      "formato": "Comic"
+      "id": 17435,
+      "nome": "Lírio Diário (Gom Mali)",
+      "slug": "lirio-diario-gom-mali",
+      "formato": "Yuri"
     },
     {
-      "id": 19600,
-      "nome": "O Campo Esquecido",
-      "slug": "o-campo-esquecido-2127",
-      "formato": "Comic"
+      "id": 17434,
+      "nome": "Bruxa Diária (Sungwon)",
+      "slug": "bruxa-diaria-sungwon",
+      "formato": "Yuri"
     },
     {
-      "id": 19596,
-      "nome": "Morte Dupla",
-      "slug": "morte-dupla",
-      "formato": "Comic"
+      "id": 17433,
+      "nome": "Antes que a garota desaparecesse (Ji Gu)",
+      "slug": "antes-que-a-garota-desaparecesse-ji-gu",
+      "formato": "Yuri"
     },
     {
-      "id": 19595,
-      "nome": "Um Dia Eu Me Tornei um Filhote",
-      "slug": "um-dia-eu-me-tornei-um-filhote",
-      "formato": "Comic"
+      "id": 17432,
+      "nome": "Cinema Azul Aqua",
+      "slug": "cinema-azul-aqua",
+      "formato": "Yuri"
     },
     {
-      "id": 19592,
-      "nome": "O Demônio Selvagem de Joseon",
-      "slug": "o-demonio-selvagem-de-joseon",
-      "formato": "Comic"
+      "id": 17430,
+      "nome": "O Terceiro (Enjelicious)",
+      "slug": "o-terceiro-enjelicious",
+      "formato": "Yuri"
     },
     {
-      "id": 19590,
-      "nome": "Eu Me Tornei Um Homem Casado Em Outro Mundo",
-      "slug": "eu-me-tornei-um-homem-casado-em-outro-mundo",
-      "formato": "Comic"
+      "id": 17428,
+      "nome": "O Doutor do Amor (Chamsae/Bansook)",
+      "slug": "o-doutor-do-amor-chamsae-bansook",
+      "formato": "Yuri"
     },
     {
-      "id": 19589,
-      "nome": "Eu me tornei o Deus Marcial Supremo através da Reencarnação em Sonhos",
-      "slug": "eu-me-tornei-o-deus-marcial-supremo-atraves-da-reencarnacao-em-sonhos",
-      "formato": "Comic"
+      "id": 17427,
+      "nome": "Serenata (Keum Kyesoo)",
+      "slug": "serenata-keum-kyesoo",
+      "formato": "Yuri"
     },
     {
-      "id": 19588,
-      "nome": "O Canal da Rei Demônio",
-      "slug": "o-canal-da-rei-demonio",
-      "formato": "Comic"
+      "id": 17426,
+      "nome": "Ex-namorado da minha namorada (Shinb)",
+      "slug": "ex-namorado-da-minha-namorada-shinb",
+      "formato": "Yuri"
     },
     {
-      "id": 19587,
-      "nome": "Menina × Agência de Salvação",
-      "slug": "menina-agencia-de-salvacao",
-      "formato": "Comic"
+      "id": 17425,
+      "nome": "Lily Love (Ratana Satis)",
+      "slug": "lily-love-ratana-satis",
+      "formato": "Yuri"
     },
     {
-      "id": 19586,
-      "nome": "(---teste2--) *teste* O Ser Absoluto é um Pai de Primeira Viagem (teste)",
-      "slug": "teste2-teste-o-ser-absoluto-e-um-pai-de-primeira-viagem-teste",
-      "formato": "Comic"
+      "id": 17424,
+      "nome": "Sentimentos vibrantes (Ssamba)",
+      "slug": "sentimentos-vibrantes-ssamba",
+      "formato": "Yuri"
     },
     {
-      "id": 19585,
-      "nome": "Coração Ferido",
-      "slug": "coracao-ferido",
-      "formato": "Comic"
+      "id": 17409,
+      "nome": "Elixir (P.P/Sungwon)",
+      "slug": "elixir-p-p-sungwon",
+      "formato": "Yuri"
     },
     {
-      "id": 19584,
-      "nome": "Me tornei um mago de fantasia medieval",
-      "slug": "me-tornei-um-mago-de-fantasia-medieval",
-      "formato": "Comic"
+      "id": 17408,
+      "nome": "Amado (Jaeliu)",
+      "slug": "amado-jaeliu",
+      "formato": "Yuri"
     },
     {
-      "id": 19583,
-      "nome": "Espírito Fantasmagórico",
-      "slug": "espirito-fantasmagorico",
-      "formato": "Comic"
+      "id": 17407,
+      "nome": "Bai He (Lírio)",
+      "slug": "bai-he-lirio",
+      "formato": "Yuri"
     },
     {
-      "id": 19582,
-      "nome": "Monte das Cinzas",
-      "slug": "monte-das-cinzas",
-      "formato": "Comic"
+      "id": 17406,
+      "nome": "Albino & Witch – Diário de Palely (Mitsu天堂树)",
+      "slug": "albino-witch-diario-de-palely-mitsu",
+      "formato": "Yuri"
     },
     {
-      "id": 19581,
-      "nome": "Ilha das Estrelas e Correntes",
-      "slug": "ilha-das-estrelas-e-correntes",
-      "formato": "Comic"
+      "id": 17405,
+      "nome": "15YPlus (Rui Yuri)",
+      "slug": "15yplus-rui-yuri",
+      "formato": "Yuri"
     },
     {
-      "id": 19580,
-      "nome": "Um Pequeno Mundo Cheio de Diversão",
-      "slug": "um-pequeno-mundo-cheio-de-diversao",
-      "formato": "Comic"
+      "id": 17404,
+      "nome": "Gosto de Unnie (COM/Jang-jin)",
+      "slug": "gosto-de-unnie-com-jang-jin",
+      "formato": "Yuri"
     },
     {
-      "id": 19579,
-      "nome": "O Imperador da Espada Reencarnou em um Clã de Mestres da Espada",
-      "slug": "o-imperador-da-espada-reencarnou-em-um-cla-de-mestres-da-espada",
-      "formato": "Comic"
+      "id": 17403,
+      "nome": "Temporada em flor",
+      "slug": "temporada-em-flor",
+      "formato": "Yuri"
     },
     {
-      "id": 19576,
-      "nome": "O Retorno do Filho Adotivo em um Mundo de Supremacia de Linhagem",
-      "slug": "o-retorno-do-filho-adotivo-em-um-mundo-de-supremacia-de-linhagem",
-      "formato": "Comic"
+      "id": 17402,
+      "nome": "Pulso (Ratana Satis)",
+      "slug": "pulso-ratana-satis",
+      "formato": "Yuri"
     },
     {
-      "id": 19574,
-      "nome": "O Gênio Marcial Que Lembra de Tudo",
-      "slug": "o-genio-marcial-que-lembra-de-tudo",
-      "formato": "Comic"
+      "id": 17399,
+      "nome": "Magan e Danai (Ermuzibu)",
+      "slug": "magan-e-danai-ermuzibu",
+      "formato": "Yuri"
     },
     {
-      "id": 19572,
-      "nome": "Tornando se um Deus no Código Binário",
-      "slug": "tornando-se-um-deus-no-codigo-binario",
-      "formato": "Comic"
+      "id": 17398,
+      "nome": "Gal Yuri (pato)",
+      "slug": "gal-yuri-pato",
+      "formato": "Yuri"
     },
     {
-      "id": 19570,
-      "nome": "Mago da Areia do Deserto Ardente",
-      "slug": "mago-da-areia-do-deserto-ardente",
-      "formato": "Comic"
+      "id": 17397,
+      "nome": "Diabo para Curador",
+      "slug": "diabo-para-curador",
+      "formato": "Yuri"
     },
     {
-      "id": 19569,
-      "nome": "O Advogado que Vê Almas",
-      "slug": "o-advogado-que-ve-almas",
-      "formato": "Comic"
+      "id": 17396,
+      "nome": "Estética de um animal de estimação (Equipe Gaji)",
+      "slug": "estetica-de-um-animal-de-estimacao-equipe-gaji",
+      "formato": "Yuri"
     },
     {
-      "id": 19568,
-      "nome": "teste absoluto, olhar os caps",
-      "slug": "teste-teste-o-ser-absoluto-e-um-pai-de-primeira-viagem-teste",
-      "formato": "Comic"
+      "id": 17395,
+      "nome": "Um amor divino sozinho",
+      "slug": "um-amor-divino-sozinho",
+      "formato": "Yuri"
     },
     {
-      "id": 19566,
-      "nome": "Super-Herói: Friday",
-      "slug": "super-heroi-friday",
-      "formato": "Comic"
+      "id": 17394,
+      "nome": "Uma mentira feliz",
+      "slug": "uma-mentira-feliz",
+      "formato": "Yuri"
     },
     {
-      "id": 19564,
-      "nome": "O Promotor",
-      "slug": "o-promotor",
-      "formato": "Comic"
+      "id": 17387,
+      "nome": "20 filhas x 30 solteiras (Akiko Morishima)",
+      "slug": "20-filhas-x-30-solteiras-akiko-morishima",
+      "formato": "Yuri"
     },
     {
-      "id": 19554,
-      "nome": "Jornada de Ferro e Gelo",
-      "slug": "jornada-de-ferro-e-gelo",
-      "formato": "Comic"
+      "id": 2593,
+      "nome": "Sua Razão de Viver",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19553,
-      "nome": "Arquiteto de Masmorras de Rank Nacional",
-      "slug": "arquiteto-de-masmorras-de-rank-nacional",
-      "formato": "Comic"
+      "id": 2589,
+      "nome": "Lala",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19552,
-      "nome": "O Filho Imprestável do Marquês",
-      "slug": "o-filho-imprestavel-do-marques",
-      "formato": "Comic"
+      "id": 2547,
+      "nome": "Romances de becos sem saída",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19548,
-      "nome": "Invencível com Apenas um Único Ponto de HP",
-      "slug": "invencivel-com-apenas-um-unico-ponto-de-hp",
-      "formato": "Comic"
+      "id": 2546,
+      "nome": "Alter Ego",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19547,
-      "nome": "Ascensão do Rei Cogumelo",
-      "slug": "ascensao-do-rei-cogumelo",
-      "formato": "Comic"
+      "id": 2545,
+      "nome": "Alter Ego 2: Noel & June",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19541,
-      "nome": "Simulação de Namoro Fantasma",
-      "slug": "simulacao-de-namoro-fantasma",
-      "formato": "Comic"
+      "id": 2544,
+      "nome": "Um Tempo Longe de Você",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19526,
-      "nome": "Glitch Utopia",
-      "slug": "glitch-utopia",
-      "formato": "Comic"
+      "id": 2543,
+      "nome": "Como perco apostas com minha amiga de infância sádica e talentosa e ela rouba todas as minhas primeiras impressões",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19521,
-      "nome": "Escola de Rua",
-      "slug": "escola-de-rua",
-      "formato": "Comic"
+      "id": 2542,
+      "nome": "500CC",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19519,
-      "nome": "O Arquiteto de Jogos do Abismo",
-      "slug": "o-arquiteto-de-jogos-do-abismo",
-      "formato": "Comic"
+      "id": 2527,
+      "nome": "Antologia Yuri – Verão 2023",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19518,
-      "nome": "Labirinto Temporal",
-      "slug": "labirinto-temporal",
-      "formato": "Comic"
+      "id": 2526,
+      "nome": "Perseguindo Spica",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19517,
-      "nome": "O Príncipe Herdeiro que Vende Remédios",
-      "slug": "o-principe-herdeiro-que-vende-remedios",
-      "formato": "Comic"
+      "id": 2525,
+      "nome": "Chorão e Cocoa Yuri",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19516,
-      "nome": "O Contra-ataque dos Discípulos Banidos",
-      "slug": "o-contra-ataque-dos-discipulos-banidos",
-      "formato": "Comic"
+      "id": 2524,
+      "nome": "Cozinhar no verão",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19515,
-      "nome": "O Único Garoto na Escola Feminina de Chongnan",
-      "slug": "o-unico-garoto-na-escola-feminina-de-chongnan",
-      "formato": "Comic"
+      "id": 2523,
+      "nome": "Antologia Yuri – Inverno 2024",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19514,
-      "nome": "Para Não Morrer",
-      "slug": "para-nao-morrer",
-      "formato": "Comic"
+      "id": 2505,
+      "nome": "Um rosto que você não deveria mostrar +18",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19512,
-      "nome": "A Vingança Da Flor Desabrochada",
-      "slug": "a-vinganca-da-flor-desabrochada",
-      "formato": "Comic"
+      "id": 2503,
+      "nome": "Um buquê para a garota solitária",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19494,
-      "nome": "Meteoro ~O Herói de Velocidade Divina~",
-      "slug": "meteoro-o-heroi-de-velocidade-divina",
-      "formato": "Comic"
+      "id": 2502,
+      "nome": "Açúcar Cracking",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19493,
-      "nome": "Sem Surpresa",
-      "slug": "sem-surpresa",
-      "formato": "Comic"
+      "id": 2501,
+      "nome": "Monstro do Armário",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19492,
-      "nome": "Distúrbio Emocional",
-      "slug": "disturbio-emocional",
-      "formato": "Comic"
+      "id": 2500,
+      "nome": "Uma mulher tímida com saudades de sua entregadora",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19491,
-      "nome": "Liu Liu Liu",
-      "slug": "liu-liu-liu",
-      "formato": "Comic"
+      "id": 2499,
+      "nome": "Uma história sobre comprar um colega de classe uma vez por semana: 5.000 ienes como desculpa para passar um tempo juntos",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19489,
-      "nome": "Estou te dizendo, só tenho olhos para você",
-      "slug": "estou-te-dizendo-so-tenho-olhos-para-voce-7911",
-      "formato": "Comic"
+      "id": 2498,
+      "nome": "Uma combinação perfeita no paraíso +18",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19485,
-      "nome": "Só Eu Tenho uma Invocação de Rank EX",
-      "slug": "so-eu-tenho-uma-invocacao-de-rank-ex",
-      "formato": "Comic"
+      "id": 2497,
+      "nome": "Yuri, presidente da turma e garota masoquista",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19468,
-      "nome": "Como assim meu Pau é o Rei Demônio mais forte?!",
-      "slug": "como-assim-meu-pau-e-o-rei-demonio-mais-forte",
-      "formato": "Comic"
+      "id": 2496,
+      "nome": "Trazendo a Garota do Mixer para Casa",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19460,
-      "nome": "New Heroes",
-      "slug": "new-heroes",
-      "formato": "Comic"
+      "id": 2495,
+      "nome": "Seja minha musa!",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19459,
-      "nome": "A Arma Suprema Retorna Após 100 Milhões de Anos",
-      "slug": "a-arma-suprema-retorna-apos-100-milhoes-de-anos",
-      "formato": "Comic"
+      "id": 2494,
+      "nome": "B&B",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19455,
-      "nome": "O Retorno do Ranker Inigualável",
-      "slug": "o-retorno-do-ranker-inigualavel",
-      "formato": "Comic"
+      "id": 2493,
+      "nome": "A história de uma raposa solitária em busca de amor",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19454,
-      "nome": "O Titã Forjado pelas Estrelas",
-      "slug": "o-tita-forjado-pelas-estrelas",
-      "formato": "Comic"
+      "id": 2492,
+      "nome": "Chore pela Lua",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19445,
-      "nome": "Uma Vontade Eterna",
-      "slug": "uma-vontade-eterna",
-      "formato": "Comic"
+      "id": 2491,
+      "nome": "Nó de borboleta +18",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19444,
-      "nome": "Terra Espiritual 2 - A Incomparável Seita Tang",
-      "slug": "terra-espiritual-2-a-incomparavel-seita-tang",
-      "formato": "Comic"
+      "id": 2490,
+      "nome": "O que fazer se o seu pênis crescer? Inserção +18",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19443,
-      "nome": "Terra Espiritual (Parte 05) - O Renascimento de Tang San",
-      "slug": "terra-espiritual-parte-05-o-renascimento-de-tang-san",
-      "formato": "Comic"
+      "id": 2489,
+      "nome": "Cabelo de Chika-chan +18",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19442,
-      "nome": "Tão Pura, Tão Provocante",
-      "slug": "tao-pura-tao-provocante",
-      "formato": "Comic"
+      "id": 2488,
+      "nome": "Catradora Comic +18",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19441,
-      "nome": "Tacit",
-      "slug": "tacit",
-      "formato": "Comic"
+      "id": 2487,
+      "nome": "Cativas +18",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19440,
-      "nome": "Soberbo Deus da Alquimia",
-      "slug": "soberbo-deus-da-alquimia",
-      "formato": "Comic"
+      "id": 2486,
+      "nome": "Posso te levar?",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19439,
-      "nome": "Renascimento do Imperador Imortal",
-      "slug": "renascimento-do-imperador-imortal",
-      "formato": "Comic"
+      "id": 2485,
+      "nome": "Calor corporal, batimentos cardíacos +18",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19438,
-      "nome": "Reencarnado Há 80.000",
-      "slug": "reencarnado-ha-80-000",
-      "formato": "Comic"
+      "id": 2484,
+      "nome": "Você é meu único +18",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19437,
-      "nome": "Reencarnação: Divindade Urbana",
-      "slug": "reencarnacao-divindade-urbana",
-      "formato": "Comic"
+      "id": 2483,
+      "nome": "Uma mensagem sobre uma história de amor",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19436,
-      "nome": "Rebelião Urbana",
-      "slug": "rebeliao-urbana",
-      "formato": "Comic"
+      "id": 2482,
+      "nome": "Dê uma mordida naquele monstro",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19435,
-      "nome": "Poderes Globais: Despertei com o Relâmpago Divino logo no Início",
-      "slug": "poderes-globais-despertei-com-o-relampago-divino-logo-no-inicio-6602",
-      "formato": "Comic"
+      "id": 2481,
+      "nome": "Aquele que conecta você e eu",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19434,
-      "nome": "O Imortal Urbano Renascido",
-      "slug": "o-imortal-urbano-renascido",
-      "formato": "Comic"
+      "id": 2480,
+      "nome": "Seu e meu beijo culpado +18",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19433,
-      "nome": "O Grande Mundo dos Centenários",
-      "slug": "o-grande-mundo-dos-centenarios",
-      "formato": "Comic"
+      "id": 2479,
+      "nome": "Doces, doces beijos até o fim",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19432,
-      "nome": "O Dantian Supremo",
-      "slug": "o-dantian-supremo",
-      "formato": "Comic"
+      "id": 2478,
+      "nome": "Namorada que faz chuva",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19431,
-      "nome": "Nota Máxima Em Um Casamento Escondido: Pegue Um Filho e Consiga Um Marido De Graça",
-      "slug": "nota-maxima-em-um-casamento-escondido-pegue-um-filho-e-consiga-um-marido-de-graca",
-      "formato": "Comic"
+      "id": 2477,
+      "nome": "segredo do alter +18",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19430,
-      "nome": "Na Real, Eu Sou um Monstro Incomparável",
-      "slug": "na-real-eu-sou-um-monstro-incomparavel",
-      "formato": "Comic"
+      "id": 2476,
+      "nome": "Alpha x Alpha 2",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19429,
-      "nome": "Monarca Divino Ancestral",
-      "slug": "monarca-divino-ancestral",
-      "formato": "Comic"
+      "id": 2475,
+      "nome": "Alpha x Alpha +18",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19428,
-      "nome": "Minhas Discípulas São Todas Insanas de Fortes",
-      "slug": "minhas-discipulas-sao-todas-insanas-de-fortes",
-      "formato": "Comic"
+      "id": 2474,
+      "nome": "Akira Sensei e Hiyori-chan",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19427,
-      "nome": "Minhas Discípulas São Todas Futuras Mestras Celestiais",
-      "slug": "minhas-discipulas-sao-todas-futuras-mestras-celestiais",
-      "formato": "Comic"
+      "id": 2473,
+      "nome": "Aki-chan está pensando +18",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19425,
-      "nome": "Meu Incrível WeChat",
-      "slug": "meu-incrivel-wechat",
-      "formato": "Comic"
+      "id": 2472,
+      "nome": "A adversidade constrói o caráter +18",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19424,
-      "nome": "Lorde Xueying",
-      "slug": "lorde-xueying",
-      "formato": "Comic"
+      "id": 2471,
+      "nome": "Ada e Eyva",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19423,
-      "nome": "Garoto Suicida",
-      "slug": "garoto-suicida",
-      "formato": "Comic"
+      "id": 2470,
+      "nome": "Um fim de semana secreto +18",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19422,
-      "nome": "Encanto dos Animais Espirituais",
-      "slug": "encanto-dos-animais-espirituais",
-      "formato": "Comic"
+      "id": 2469,
+      "nome": "Um Amor Ainda para Florescer(Oneshot)",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19421,
-      "nome": "A Invasão das Dez Mil Raças: A Super Era",
-      "slug": "a-invasao-das-dez-mil-racas-a-super-era",
-      "formato": "Comic"
+      "id": 2468,
+      "nome": "O fim de semana de um certo casal",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19420,
-      "nome": "0 Deus da Invocação! Quando a Mutação Descende Sobre o Mundo Mortal",
-      "slug": "0-deus-da-invocacao-quando-a-mutacao-descende-sobre-o-mundo-mortal",
-      "formato": "Comic"
+      "id": 2467,
+      "nome": "5 segundos antes de se apaixonar por uma bruxa",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19418,
-      "nome": "O Rei do Cartel",
-      "slug": "o-rei-do-cartel",
-      "formato": "Comic"
+      "id": 2466,
+      "nome": "30 minutos",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19415,
-      "nome": "O Estilo de Vida de um Imortal",
-      "slug": "o-estilo-de-vida-de-um-imortal",
-      "formato": "Comic"
+      "id": 2464,
+      "nome": "11 da noite com um ídolo +18",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19414,
-      "nome": "Renascido como Deus da Guerra",
-      "slug": "renascido-como-deus-da-guerra",
-      "formato": "Comic"
+      "id": 2463,
+      "nome": "“Eu quero tocar em você” Então o amor começa.",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19413,
-      "nome": "O Culto Ao Dinheiro",
-      "slug": "o-culto-ao-dinheiro",
-      "formato": "Comic"
+      "id": 2443,
+      "nome": "A Deusa Mais Ciumenta do Universo",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19411,
-      "nome": "Cultivador Moderno: Entre o Qi e o Wi-Fi",
-      "slug": "cultivador-moderno-entre-o-qi-e-o-wi-fi",
-      "formato": "Comic"
+      "id": 2442,
+      "nome": "Ímpio",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19410,
-      "nome": "O Deus Maligno Desce, Eu Possuo o Grande Inferno",
-      "slug": "o-deus-maligno-desce-eu-possuo-o-grande-inferno",
-      "formato": "Comic"
+      "id": 2441,
+      "nome": "Sem saber que Sua Majestade é uma menina",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19408,
-      "nome": "O Que Nosso Herói Está Fazendo?",
-      "slug": "o-que-nosso-heroi-esta-fazendo",
-      "formato": "Comic"
+      "id": 2440,
+      "nome": "A vida universitária que eu sonhava… Não é assim!",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19406,
-      "nome": "Vamos lutar",
-      "slug": "vamos-lutar",
-      "formato": "Comic"
+      "id": 2439,
+      "nome": "Unnie! Vou te marcar",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19403,
-      "nome": "O Fazendeiro de Mortos-Vivos",
-      "slug": "o-fazendeiro-de-mortos-vivos",
-      "formato": "Comic"
+      "id": 2438,
+      "nome": "Princesas Inúteis",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19401,
-      "nome": "Mestre Heroico, Eu e Meus Dez Discípulos Lendários",
-      "slug": "mestre-heroico-eu-e-meus-dez-discipulos-lendarios",
-      "formato": "Comic"
+      "id": 2437,
+      "nome": "Atenção! Cuidado com o cão",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19400,
-      "nome": "Meu Marido Tem Um Harém Um Pouco Exagerado",
-      "slug": "meu-marido-tem-um-harem-um-pouco-exagerado",
-      "formato": "Comic"
+      "id": 2436,
+      "nome": "Não tem motivo para eu ser sua namorada, é impossível! Não é impossível!?",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19399,
-      "nome": "O Eterno Mago de Suporte se Torna o Mais Forte Sábio",
-      "slug": "o-eterno-mago-de-suporte-se-torna-o-mais-forte-sabio",
-      "formato": "Comic"
+      "id": 2435,
+      "nome": "Pegue meu punho!",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19398,
-      "nome": "Decidi me tornar um vilão",
-      "slug": "decidi-me-tornar-um-vilao",
-      "formato": "Comic"
+      "id": 2434,
+      "nome": "Não Podemos Desenhar o Amor",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19396,
-      "nome": "Sala da Vilã",
-      "slug": "sala-da-vila",
-      "formato": "Comic"
+      "id": 2433,
+      "nome": "(+18) FRAQUEZA",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19394,
-      "nome": "Renascido como Imperador",
-      "slug": "renascido-como-imperador",
-      "formato": "Comic"
+      "id": 2432,
+      "nome": "Quais são as chances",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19393,
-      "nome": "O Renascimento do Deus Prodígio",
-      "slug": "o-renascimento-do-deus-prodigio-1029",
-      "formato": "Comic"
+      "id": 2431,
+      "nome": "Com o que a borboleta venenosa sonha",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19391,
-      "nome": "Sozinho no Apocalipse, Eu irei Extinguir o Caos",
-      "slug": "sozinho-no-apocalipse-eu-irei-extinguir-o-caos-591",
-      "formato": "Comic"
+      "id": 2428,
+      "nome": "O que é amor normal?",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19389,
-      "nome": "Barraca de Comida Apocalíptica",
-      "slug": "barraca-de-comida-apocaliptica-6229",
-      "formato": "Comic"
+      "id": 2427,
+      "nome": "O que devo fazer se assinei um contrato de casamento com a princesa élfica?",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19387,
-      "nome": "Centro de Trauma",
-      "slug": "centro-de-trauma",
-      "formato": "Comic"
+      "id": 2426,
+      "nome": "Quando a vilã encontra a heroína louca",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19386,
-      "nome": "O Jogo do Cultivo Imortal",
-      "slug": "o-jogo-do-cultivo-imortal",
-      "formato": "Comic"
+      "id": 2425,
+      "nome": "(+18) Quando nos aproximamos",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19385,
-      "nome": "O Druída da Estação Seul",
-      "slug": "o-druida-da-estacao-seul",
-      "formato": "Comic"
+      "id": 2424,
+      "nome": "Lírios brancos apaixonados: Antologia Yuri da noiva recém-casada",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19384,
-      "nome": "Eu me Tornei um Vilão numa Fantasia Sombria",
-      "slug": "eu-me-tornei-um-vilao-numa-fantasia-sombria-3548",
-      "formato": "Comic"
+      "id": 2423,
+      "nome": "Por que eu, o MC do Gal Game, entrei no mundo dos quadrinhos do Yuri",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19382,
-      "nome": "Os Preços Caíram, Estou Rico!",
-      "slug": "os-precos-cairam-estou-rico",
-      "formato": "Comic"
+      "id": 2422,
+      "nome": "Ponto Maligno",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19381,
-      "nome": "Porque eu sou um tio que tem uma loja de armas",
-      "slug": "porque-eu-sou-um-tio-que-tem-uma-loja-de-armas",
-      "formato": "Comic"
+      "id": 2421,
+      "nome": "Inverno antes da primavera",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19380,
-      "nome": "O Que Não Pode Matar",
-      "slug": "o-que-nao-pode-matar",
-      "formato": "Comic"
+      "id": 2420,
+      "nome": "Palavras e Beijos",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19379,
-      "nome": "Acontece Que Sou Invencível Há Muito Tempo",
-      "slug": "acontece-que-sou-invencivel-ha-muito-tempo",
-      "formato": "Comic"
+      "id": 2419,
+      "nome": "Você faria isso? Você poderia fazer isso?",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19378,
-      "nome": "Rei Demônio Marcial",
-      "slug": "rei-demonio-marcial",
-      "formato": "Comic"
+      "id": 2417,
+      "nome": "Saboroso",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19377,
-      "nome": "Gosu",
-      "slug": "gosu",
-      "formato": "Comic"
+      "id": 2416,
+      "nome": "Manual da namorada",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19375,
-      "nome": "Time dos Sonhos",
-      "slug": "time-dos-sonhos",
-      "formato": "Comic"
+      "id": 2415,
+      "nome": "Conhecendo a Graça",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19374,
-      "nome": "Renascido por Bestas",
-      "slug": "renascido-por-bestas",
-      "formato": "Comic"
+      "id": 2414,
+      "nome": "Fantasmas de Greywoods",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19373,
-      "nome": "Dinastia joseon",
-      "slug": "dinastia-joseon",
-      "formato": "Comic"
+      "id": 2411,
+      "nome": "Xian Chan Nu",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19372,
-      "nome": "Terra Espiritual (Parte 2.5) - A Lenda do Reino dos Deuses",
-      "slug": "terra-espiritual-parte-2-5-a-lenda-do-reino-dos-deuses",
-      "formato": "Comic"
+      "id": 2410,
+      "nome": "Ansiando por uma noite cheia de você",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19371,
-      "nome": "Rompendo Limites",
-      "slug": "rompendo-limites",
-      "formato": "Comic"
+      "id": 2409,
+      "nome": "Amarelo",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19370,
-      "nome": "Renasci Milhares De Vezes Para Ficar Forte",
-      "slug": "renasci-milhares-de-vezes-para-ficar-forte",
-      "formato": "Comic"
+      "id": 2408,
+      "nome": "Você pode me odiar",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19369,
-      "nome": "Frenesi de Batalha",
-      "slug": "frenesi-de-batalha",
-      "formato": "Comic"
+      "id": 2407,
+      "nome": "Você tem um gosto um pouco doce",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19368,
-      "nome": "Um Rei Demônio Quase Nulo",
-      "slug": "um-rei-demonio-quase-nulo",
-      "formato": "Comic"
+      "id": 2406,
+      "nome": "Sua verdadeira cor",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19364,
-      "nome": "O Antigo Aventureiro do Ranque S Quer Viver uma Vida Tranquila no Campo",
-      "slug": "o-antigo-aventureiro-do-ranque-s-quer-viver-uma-vida-tranquila-no-campo-7902",
-      "formato": "Comic"
+      "id": 2405,
+      "nome": "Yove",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19362,
-      "nome": "Entrega Divina",
-      "slug": "entrega-divina-1091",
-      "formato": "Comic"
+      "id": 2404,
+      "nome": "Yuri é meu trabalho!",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19360,
-      "nome": "Jornada ao Oeste - Apocalipse",
-      "slug": "jornada-ao-oeste-apocalipse",
-      "formato": "Comic"
+      "id": 2403,
+      "nome": "(+18) Quando os lírios começam a brotar",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19359,
-      "nome": "Imperador Divino Imponente",
-      "slug": "imperador-divino-imponente",
-      "formato": "Comic"
+      "id": 2402,
+      "nome": "Yuri Yuri Panic: Um caso extremamente precioso começou",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19358,
-      "nome": "Sistema de contra-ataque disponível no estágio Grand Ascension",
-      "slug": "sistema-de-contra-ataque-disponivel-no-estagio-grand-ascension",
-      "formato": "Comic"
+      "id": 2394,
+      "nome": "Beijo Fatal",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19357,
-      "nome": "Eu Sou um Sugar Baby em Outro Mundo",
-      "slug": "eu-sou-um-sugar-baby-em-outro-mundo",
-      "formato": "Comic"
+      "id": 2393,
+      "nome": "Caindo Azul",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19356,
-      "nome": "Eu Caminho na Noite Consumido Por Lâminas",
-      "slug": "eu-caminho-na-noite-consumido-por-laminas",
-      "formato": "Comic"
+      "id": 2392,
+      "nome": "Apaixonando-se pela Imperatriz",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
-      "id": 19355,
-      "nome": "Come alguma coisa antes de ir",
-      "slug": "come-alguma-coisa-antes-de-ir",
-      "formato": "Comic"
-    },
-    {
-      "id": 19354,
-      "nome": "Guarda Prisional Zero",
-      "slug": "guarda-prisional-zero",
-      "formato": "Comic"
+      "id": 2391,
+      "nome": "Não se apaixone!",
+      "slug": "",
+      "formato": "Yuri"
     },
     {
       "id": 19484,
@@ -3051,904 +3043,904 @@
       "formato": "Yaoi"
     },
     {
-      "id": 17686,
-      "nome": "Uma História de Amor Não Tão Shoujo",
-      "slug": "uma-historia-de-amor-nao-tao-shoujo",
-      "formato": "Yuri"
+      "id": 19647,
+      "nome": "Fui Jogado em Um Mangá Desconhecido",
+      "slug": "fui-jogado-em-um-manga-desconhecido",
+      "formato": "Comic"
     },
     {
-      "id": 17663,
-      "nome": "Mago & Rainha Demônio",
-      "slug": "mago-rainha-demonio",
-      "formato": "Yuri"
+      "id": 19644,
+      "nome": "Me Tornei o Rebelde da Família Necromante",
+      "slug": "me-tornei-o-rebelde-da-familia-necromante",
+      "formato": "Comic"
     },
     {
-      "id": 17463,
-      "nome": "Melífluo (Enjelicioso)",
-      "slug": "melifluo-enjelicioso",
-      "formato": "Yuri"
+      "id": 19643,
+      "nome": "O Prodígio Mais Forte do Mundo Retorna Para Desafiar a Extinção",
+      "slug": "o-prodigio-mais-forte-do-mundo-retorna-para-desafiar-a-extincao",
+      "formato": "Comic"
     },
     {
-      "id": 17462,
-      "nome": "Lumi White",
-      "slug": "lumi-white",
-      "formato": "Yuri"
+      "id": 19642,
+      "nome": "O Rebelde da Nobre Família Tirana",
+      "slug": "o-rebelde-da-nobre-familia-tirana",
+      "formato": "Comic"
     },
     {
-      "id": 17461,
-      "nome": "Amor cintilação",
-      "slug": "amor-cintilacao",
-      "formato": "Yuri"
+      "id": 19641,
+      "nome": "Quando a noite cai",
+      "slug": "quando-a-noite-cai",
+      "formato": "Comic"
     },
     {
-      "id": 17460,
-      "nome": "palavras",
-      "slug": "palavras",
-      "formato": "Yuri"
+      "id": 19640,
+      "nome": "A Lenda do Último Fracote",
+      "slug": "a-lenda-do-ultimo-fracote",
+      "formato": "Comic"
     },
     {
-      "id": 17459,
-      "nome": "Garota meio assada",
-      "slug": "garota-meio-assada",
-      "formato": "Yuri"
+      "id": 19638,
+      "nome": "Minha Namorada",
+      "slug": "minha-namorada-1",
+      "formato": "Comic"
     },
     {
-      "id": 17458,
-      "nome": "Hana e Hina depois da escola",
-      "slug": "hana-e-hina-depois-da-escola",
-      "formato": "Yuri"
+      "id": 19637,
+      "nome": "Soberano das Cem Lâminas: Herdeiro do Estilo Mais Forte",
+      "slug": "soberano-das-cem-laminas-herdeiro-do-estilo-mais-forte",
+      "formato": "Comic"
     },
     {
-      "id": 17457,
-      "nome": "Não posso contar a ninguém, só nós dois",
-      "slug": "nao-posso-contar-a-ninguem-so-nos-dois",
-      "formato": "Yuri"
+      "id": 19636,
+      "nome": "Reencarnado como o filho caçula de uma família de espadachins demoníacos.",
+      "slug": "reencarnado-como-o-filho-cacula-de-uma-familia-de-espadachins-demoniacos",
+      "formato": "Comic"
     },
     {
-      "id": 17456,
-      "nome": "Batwoman – Os Novos 52",
-      "slug": "batwoman-os-novos-52",
-      "formato": "Yuri"
+      "id": 19635,
+      "nome": "Delivery Da Luta",
+      "slug": "delivery-da-luta",
+      "formato": "Comic"
     },
     {
-      "id": 17455,
-      "nome": "Asagao e Toki-san",
-      "slug": "asagao-e-toki-san",
-      "formato": "Yuri"
+      "id": 19634,
+      "nome": "Veterano do Apocalipse",
+      "slug": "veterano-do-apocalipse",
+      "formato": "Comic"
     },
     {
-      "id": 17454,
-      "nome": "torna-se a gema",
-      "slug": "torna-se-a-gema",
-      "formato": "Yuri"
+      "id": 19633,
+      "nome": "Mestre Sombrio — A Lenda do Poder Absoluto",
+      "slug": "mestre-sombrio-a-lenda-do-poder-absoluto",
+      "formato": "Comic"
     },
     {
-      "id": 17453,
-      "nome": "Armadilha Netsuzou – NTR",
-      "slug": "armadilha-netsuzou-ntr",
-      "formato": "Yuri"
+      "id": 19632,
+      "nome": "Seu Guarda Costas Particular",
+      "slug": "seu-guarda-costas-particular-1",
+      "formato": "Comic"
     },
     {
-      "id": 17452,
-      "nome": "Casa da Empregada (Montana)",
-      "slug": "casa-da-empregada-montana",
-      "formato": "Yuri"
+      "id": 19626,
+      "nome": "Um Homem de Verdade",
+      "slug": "um-homem-de-verdade",
+      "formato": "Comic"
     },
     {
-      "id": 17451,
-      "nome": "Lily Love 2 (Ratana Satis)",
-      "slug": "lily-love-2-ratana-satis",
-      "formato": "Yuri"
+      "id": 19625,
+      "nome": "O Retorno do Discípulo Sênior Lee Hoo",
+      "slug": "o-retorno-do-discipulo-senior-lee-hoo",
+      "formato": "Comic"
     },
     {
-      "id": 17450,
-      "nome": "Se esse desejo se tornar realidade",
-      "slug": "se-esse-desejo-se-tornar-realidade",
-      "formato": "Yuri"
+      "id": 19624,
+      "nome": "Sou Amaldiçoado, Mas a Santa Lendária Virou Minha Aliada",
+      "slug": "sou-amaldicoado-mas-a-santa-lendaria-virou-minha-aliada-1",
+      "formato": "Comic"
     },
     {
-      "id": 17449,
-      "nome": "Meu hobby é estranho?",
-      "slug": "meu-hobby-e-estranho",
-      "formato": "Yuri"
+      "id": 19623,
+      "nome": "Sou Amaldiçoado, Mas a Santa Lendária Virou Minha Aliada",
+      "slug": "sou-amaldicoado-mas-a-santa-lendaria-virou-minha-aliada",
+      "formato": "Comic"
     },
     {
-      "id": 17448,
-      "nome": "Amigas",
-      "slug": "amigas",
-      "formato": "Yuri"
+      "id": 19622,
+      "nome": "No Jogo da Morte, Só Eu Conheço os Monstros",
+      "slug": "no-jogo-da-morte-so-eu-conheco-os-monstros",
+      "formato": "Comic"
     },
     {
-      "id": 17447,
-      "nome": "Irmãs do primeiro amor",
-      "slug": "irmas-do-primeiro-amor",
-      "formato": "Yuri"
+      "id": 19619,
+      "nome": "A Crônica da Guerra de Lodoss: A Rainha Necromante",
+      "slug": "a-cronica-da-guerra-de-lodoss-a-rainha-necromante",
+      "formato": "Comic"
     },
     {
-      "id": 17446,
-      "nome": "Clube (KatotoChan)",
-      "slug": "clube-katotochan",
-      "formato": "Yuri"
+      "id": 19618,
+      "nome": "Renascimento do Rei Zhou: Não serei mais um Vilão",
+      "slug": "renascimento-do-rei-zhou-nao-serei-mais-um-vilao",
+      "formato": "Comic"
     },
     {
-      "id": 17445,
-      "nome": "Cirque Aracne",
-      "slug": "cirque-aracne-3862",
-      "formato": "Yuri"
+      "id": 19616,
+      "nome": "Limpeza - Serviços de limpeza",
+      "slug": "limpeza-servicos-de-limpeza-7592",
+      "formato": "Comic"
     },
     {
-      "id": 17444,
-      "nome": "Amigo Azul",
-      "slug": "amigo-azul",
-      "formato": "Yuri"
+      "id": 19614,
+      "nome": "O Genro Assassino",
+      "slug": "o-genro-assassino",
+      "formato": "Comic"
     },
     {
-      "id": 17443,
-      "nome": "Sequência de florescimento (Lee Eul)",
-      "slug": "sequencia-de-florescimento-lee-eul",
-      "formato": "Yuri"
+      "id": 19613,
+      "nome": "Quem Assassinou o Líder da Aliança Murim?",
+      "slug": "quem-assassinou-o-lider-da-alianca-murim",
+      "formato": "Comic"
     },
     {
-      "id": 17442,
-      "nome": "Duas vidas na mesma casa (Yul-Seo)",
-      "slug": "duas-vidas-na-mesma-casa-yul-seo",
-      "formato": "Yuri"
+      "id": 19612,
+      "nome": "O Mundo é Poder e Dinheiro",
+      "slug": "o-mundo-e-poder-e-dinheiro",
+      "formato": "Comic"
     },
     {
-      "id": 17441,
-      "nome": "The Legend of Korra: Guerras Territoriais",
-      "slug": "the-legend-of-korra-guerras-territoriais",
-      "formato": "Yuri"
+      "id": 19610,
+      "nome": "O Retorno do Professor Runebound",
+      "slug": "o-retorno-do-professor-runebound",
+      "formato": "Comic"
     },
     {
-      "id": 17440,
-      "nome": "Partição (chá aconchegante)",
-      "slug": "particao-cha-aconchegante",
-      "formato": "Yuri"
+      "id": 19609,
+      "nome": "Invasão do Submundo",
+      "slug": "invasao-do-submundo",
+      "formato": "Comic"
     },
     {
-      "id": 17439,
-      "nome": "Minha Alegria (Pito)",
-      "slug": "minha-alegria-pito",
-      "formato": "Yuri"
+      "id": 19608,
+      "nome": "Necromante do Clã da Espada",
+      "slug": "necromante-do-cla-da-espada",
+      "formato": "Comic"
     },
     {
-      "id": 17438,
-      "nome": "Jardim ao Luar",
-      "slug": "jardim-ao-luar",
-      "formato": "Yuri"
+      "id": 19607,
+      "nome": "A Academia Está Condenada",
+      "slug": "a-academia-esta-condenada",
+      "formato": "Comic"
     },
     {
-      "id": 17437,
-      "nome": "Liming you xing Chen (sem TB)",
-      "slug": "liming-you-xing-chen-sem-tb",
-      "formato": "Yuri"
+      "id": 19606,
+      "nome": "O Segredo de Jae-Kyung",
+      "slug": "o-segredo-de-jae-kyung",
+      "formato": "Comic"
     },
     {
-      "id": 17436,
-      "nome": "Seria ótimo se você não existisse (Carbonara)",
-      "slug": "seria-otimo-se-voce-nao-existisse-carbonara",
-      "formato": "Yuri"
+      "id": 19603,
+      "nome": "Desafio da Queda",
+      "slug": "desafio-da-queda",
+      "formato": "Comic"
     },
     {
-      "id": 17435,
-      "nome": "Lírio Diário (Gom Mali)",
-      "slug": "lirio-diario-gom-mali",
-      "formato": "Yuri"
+      "id": 19601,
+      "nome": "Assaltei o Cofre dos Deuses",
+      "slug": "assaltei-o-cofre-dos-deuses",
+      "formato": "Comic"
     },
     {
-      "id": 17434,
-      "nome": "Bruxa Diária (Sungwon)",
-      "slug": "bruxa-diaria-sungwon",
-      "formato": "Yuri"
+      "id": 19600,
+      "nome": "O Campo Esquecido",
+      "slug": "o-campo-esquecido-2127",
+      "formato": "Comic"
     },
     {
-      "id": 17433,
-      "nome": "Antes que a garota desaparecesse (Ji Gu)",
-      "slug": "antes-que-a-garota-desaparecesse-ji-gu",
-      "formato": "Yuri"
+      "id": 19596,
+      "nome": "Morte Dupla",
+      "slug": "morte-dupla",
+      "formato": "Comic"
     },
     {
-      "id": 17432,
-      "nome": "Cinema Azul Aqua",
-      "slug": "cinema-azul-aqua",
-      "formato": "Yuri"
+      "id": 19595,
+      "nome": "Um Dia Eu Me Tornei um Filhote",
+      "slug": "um-dia-eu-me-tornei-um-filhote",
+      "formato": "Comic"
     },
     {
-      "id": 17430,
-      "nome": "O Terceiro (Enjelicious)",
-      "slug": "o-terceiro-enjelicious",
-      "formato": "Yuri"
+      "id": 19592,
+      "nome": "O Demônio Selvagem de Joseon",
+      "slug": "o-demonio-selvagem-de-joseon",
+      "formato": "Comic"
     },
     {
-      "id": 17428,
-      "nome": "O Doutor do Amor (Chamsae/Bansook)",
-      "slug": "o-doutor-do-amor-chamsae-bansook",
-      "formato": "Yuri"
+      "id": 19590,
+      "nome": "Eu Me Tornei Um Homem Casado Em Outro Mundo",
+      "slug": "eu-me-tornei-um-homem-casado-em-outro-mundo",
+      "formato": "Comic"
     },
     {
-      "id": 17427,
-      "nome": "Serenata (Keum Kyesoo)",
-      "slug": "serenata-keum-kyesoo",
-      "formato": "Yuri"
+      "id": 19589,
+      "nome": "Eu me tornei o Deus Marcial Supremo através da Reencarnação em Sonhos",
+      "slug": "eu-me-tornei-o-deus-marcial-supremo-atraves-da-reencarnacao-em-sonhos",
+      "formato": "Comic"
     },
     {
-      "id": 17426,
-      "nome": "Ex-namorado da minha namorada (Shinb)",
-      "slug": "ex-namorado-da-minha-namorada-shinb",
-      "formato": "Yuri"
+      "id": 19588,
+      "nome": "O Canal da Rei Demônio",
+      "slug": "o-canal-da-rei-demonio",
+      "formato": "Comic"
     },
     {
-      "id": 17425,
-      "nome": "Lily Love (Ratana Satis)",
-      "slug": "lily-love-ratana-satis",
-      "formato": "Yuri"
+      "id": 19587,
+      "nome": "Menina × Agência de Salvação",
+      "slug": "menina-agencia-de-salvacao",
+      "formato": "Comic"
     },
     {
-      "id": 17424,
-      "nome": "Sentimentos vibrantes (Ssamba)",
-      "slug": "sentimentos-vibrantes-ssamba",
-      "formato": "Yuri"
+      "id": 19586,
+      "nome": "(---teste2--) *teste* O Ser Absoluto é um Pai de Primeira Viagem (teste)",
+      "slug": "teste2-teste-o-ser-absoluto-e-um-pai-de-primeira-viagem-teste",
+      "formato": "Comic"
     },
     {
-      "id": 17409,
-      "nome": "Elixir (P.P/Sungwon)",
-      "slug": "elixir-p-p-sungwon",
-      "formato": "Yuri"
+      "id": 19585,
+      "nome": "Coração Ferido",
+      "slug": "coracao-ferido",
+      "formato": "Comic"
     },
     {
-      "id": 17408,
-      "nome": "Amado (Jaeliu)",
-      "slug": "amado-jaeliu",
-      "formato": "Yuri"
+      "id": 19584,
+      "nome": "Me tornei um mago de fantasia medieval",
+      "slug": "me-tornei-um-mago-de-fantasia-medieval",
+      "formato": "Comic"
     },
     {
-      "id": 17407,
-      "nome": "Bai He (Lírio)",
-      "slug": "bai-he-lirio",
-      "formato": "Yuri"
+      "id": 19583,
+      "nome": "Espírito Fantasmagórico",
+      "slug": "espirito-fantasmagorico",
+      "formato": "Comic"
     },
     {
-      "id": 17406,
-      "nome": "Albino & Witch – Diário de Palely (Mitsu天堂树)",
-      "slug": "albino-witch-diario-de-palely-mitsu",
-      "formato": "Yuri"
+      "id": 19582,
+      "nome": "Monte das Cinzas",
+      "slug": "monte-das-cinzas",
+      "formato": "Comic"
     },
     {
-      "id": 17405,
-      "nome": "15YPlus (Rui Yuri)",
-      "slug": "15yplus-rui-yuri",
-      "formato": "Yuri"
+      "id": 19581,
+      "nome": "Ilha das Estrelas e Correntes",
+      "slug": "ilha-das-estrelas-e-correntes",
+      "formato": "Comic"
     },
     {
-      "id": 17404,
-      "nome": "Gosto de Unnie (COM/Jang-jin)",
-      "slug": "gosto-de-unnie-com-jang-jin",
-      "formato": "Yuri"
+      "id": 19580,
+      "nome": "Um Pequeno Mundo Cheio de Diversão",
+      "slug": "um-pequeno-mundo-cheio-de-diversao",
+      "formato": "Comic"
     },
     {
-      "id": 17403,
-      "nome": "Temporada em flor",
-      "slug": "temporada-em-flor",
-      "formato": "Yuri"
+      "id": 19579,
+      "nome": "O Imperador da Espada Reencarnou em um Clã de Mestres da Espada",
+      "slug": "o-imperador-da-espada-reencarnou-em-um-cla-de-mestres-da-espada",
+      "formato": "Comic"
     },
     {
-      "id": 17402,
-      "nome": "Pulso (Ratana Satis)",
-      "slug": "pulso-ratana-satis",
-      "formato": "Yuri"
+      "id": 19576,
+      "nome": "O Retorno do Filho Adotivo em um Mundo de Supremacia de Linhagem",
+      "slug": "o-retorno-do-filho-adotivo-em-um-mundo-de-supremacia-de-linhagem",
+      "formato": "Comic"
     },
     {
-      "id": 17399,
-      "nome": "Magan e Danai (Ermuzibu)",
-      "slug": "magan-e-danai-ermuzibu",
-      "formato": "Yuri"
+      "id": 19574,
+      "nome": "O Gênio Marcial Que Lembra de Tudo",
+      "slug": "o-genio-marcial-que-lembra-de-tudo",
+      "formato": "Comic"
     },
     {
-      "id": 17398,
-      "nome": "Gal Yuri (pato)",
-      "slug": "gal-yuri-pato",
-      "formato": "Yuri"
+      "id": 19572,
+      "nome": "Tornando se um Deus no Código Binário",
+      "slug": "tornando-se-um-deus-no-codigo-binario",
+      "formato": "Comic"
     },
     {
-      "id": 17397,
-      "nome": "Diabo para Curador",
-      "slug": "diabo-para-curador",
-      "formato": "Yuri"
+      "id": 19570,
+      "nome": "Mago da Areia do Deserto Ardente",
+      "slug": "mago-da-areia-do-deserto-ardente",
+      "formato": "Comic"
     },
     {
-      "id": 17396,
-      "nome": "Estética de um animal de estimação (Equipe Gaji)",
-      "slug": "estetica-de-um-animal-de-estimacao-equipe-gaji",
-      "formato": "Yuri"
+      "id": 19569,
+      "nome": "O Advogado que Vê Almas",
+      "slug": "o-advogado-que-ve-almas",
+      "formato": "Comic"
     },
     {
-      "id": 17395,
-      "nome": "Um amor divino sozinho",
-      "slug": "um-amor-divino-sozinho",
-      "formato": "Yuri"
+      "id": 19568,
+      "nome": "teste absoluto, olhar os caps",
+      "slug": "teste-teste-o-ser-absoluto-e-um-pai-de-primeira-viagem-teste",
+      "formato": "Comic"
     },
     {
-      "id": 17394,
-      "nome": "Uma mentira feliz",
-      "slug": "uma-mentira-feliz",
-      "formato": "Yuri"
+      "id": 19566,
+      "nome": "Super-Herói: Friday",
+      "slug": "super-heroi-friday",
+      "formato": "Comic"
     },
     {
-      "id": 17387,
-      "nome": "20 filhas x 30 solteiras (Akiko Morishima)",
-      "slug": "20-filhas-x-30-solteiras-akiko-morishima",
-      "formato": "Yuri"
+      "id": 19564,
+      "nome": "O Promotor",
+      "slug": "o-promotor",
+      "formato": "Comic"
     },
     {
-      "id": 2593,
-      "nome": "Sua Razão de Viver",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19554,
+      "nome": "Jornada de Ferro e Gelo",
+      "slug": "jornada-de-ferro-e-gelo",
+      "formato": "Comic"
     },
     {
-      "id": 2589,
-      "nome": "Lala",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19553,
+      "nome": "Arquiteto de Masmorras de Rank Nacional",
+      "slug": "arquiteto-de-masmorras-de-rank-nacional",
+      "formato": "Comic"
     },
     {
-      "id": 2547,
-      "nome": "Romances de becos sem saída",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19552,
+      "nome": "O Filho Imprestável do Marquês",
+      "slug": "o-filho-imprestavel-do-marques",
+      "formato": "Comic"
     },
     {
-      "id": 2546,
-      "nome": "Alter Ego",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19548,
+      "nome": "Invencível com Apenas um Único Ponto de HP",
+      "slug": "invencivel-com-apenas-um-unico-ponto-de-hp",
+      "formato": "Comic"
     },
     {
-      "id": 2545,
-      "nome": "Alter Ego 2: Noel & June",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19547,
+      "nome": "Ascensão do Rei Cogumelo",
+      "slug": "ascensao-do-rei-cogumelo",
+      "formato": "Comic"
     },
     {
-      "id": 2544,
-      "nome": "Um Tempo Longe de Você",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19541,
+      "nome": "Simulação de Namoro Fantasma",
+      "slug": "simulacao-de-namoro-fantasma",
+      "formato": "Comic"
     },
     {
-      "id": 2543,
-      "nome": "Como perco apostas com minha amiga de infância sádica e talentosa e ela rouba todas as minhas primeiras impressões",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19526,
+      "nome": "Glitch Utopia",
+      "slug": "glitch-utopia",
+      "formato": "Comic"
     },
     {
-      "id": 2542,
-      "nome": "500CC",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19521,
+      "nome": "Escola de Rua",
+      "slug": "escola-de-rua",
+      "formato": "Comic"
     },
     {
-      "id": 2527,
-      "nome": "Antologia Yuri – Verão 2023",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19519,
+      "nome": "O Arquiteto de Jogos do Abismo",
+      "slug": "o-arquiteto-de-jogos-do-abismo",
+      "formato": "Comic"
     },
     {
-      "id": 2526,
-      "nome": "Perseguindo Spica",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19518,
+      "nome": "Labirinto Temporal",
+      "slug": "labirinto-temporal",
+      "formato": "Comic"
     },
     {
-      "id": 2525,
-      "nome": "Chorão e Cocoa Yuri",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19517,
+      "nome": "O Príncipe Herdeiro que Vende Remédios",
+      "slug": "o-principe-herdeiro-que-vende-remedios",
+      "formato": "Comic"
     },
     {
-      "id": 2524,
-      "nome": "Cozinhar no verão",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19516,
+      "nome": "O Contra-ataque dos Discípulos Banidos",
+      "slug": "o-contra-ataque-dos-discipulos-banidos",
+      "formato": "Comic"
     },
     {
-      "id": 2523,
-      "nome": "Antologia Yuri – Inverno 2024",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19515,
+      "nome": "O Único Garoto na Escola Feminina de Chongnan",
+      "slug": "o-unico-garoto-na-escola-feminina-de-chongnan",
+      "formato": "Comic"
     },
     {
-      "id": 2505,
-      "nome": "Um rosto que você não deveria mostrar +18",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19514,
+      "nome": "Para Não Morrer",
+      "slug": "para-nao-morrer",
+      "formato": "Comic"
     },
     {
-      "id": 2503,
-      "nome": "Um buquê para a garota solitária",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19512,
+      "nome": "A Vingança Da Flor Desabrochada",
+      "slug": "a-vinganca-da-flor-desabrochada",
+      "formato": "Comic"
     },
     {
-      "id": 2502,
-      "nome": "Açúcar Cracking",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19494,
+      "nome": "Meteoro ~O Herói de Velocidade Divina~",
+      "slug": "meteoro-o-heroi-de-velocidade-divina",
+      "formato": "Comic"
     },
     {
-      "id": 2501,
-      "nome": "Monstro do Armário",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19493,
+      "nome": "Sem Surpresa",
+      "slug": "sem-surpresa",
+      "formato": "Comic"
     },
     {
-      "id": 2500,
-      "nome": "Uma mulher tímida com saudades de sua entregadora",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19492,
+      "nome": "Distúrbio Emocional",
+      "slug": "disturbio-emocional",
+      "formato": "Comic"
     },
     {
-      "id": 2499,
-      "nome": "Uma história sobre comprar um colega de classe uma vez por semana: 5.000 ienes como desculpa para passar um tempo juntos",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19491,
+      "nome": "Liu Liu Liu",
+      "slug": "liu-liu-liu",
+      "formato": "Comic"
     },
     {
-      "id": 2498,
-      "nome": "Uma combinação perfeita no paraíso +18",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19489,
+      "nome": "Estou te dizendo, só tenho olhos para você",
+      "slug": "estou-te-dizendo-so-tenho-olhos-para-voce-7911",
+      "formato": "Comic"
     },
     {
-      "id": 2497,
-      "nome": "Yuri, presidente da turma e garota masoquista",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19485,
+      "nome": "Só Eu Tenho uma Invocação de Rank EX",
+      "slug": "so-eu-tenho-uma-invocacao-de-rank-ex",
+      "formato": "Comic"
     },
     {
-      "id": 2496,
-      "nome": "Trazendo a Garota do Mixer para Casa",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19468,
+      "nome": "Como assim meu Pau é o Rei Demônio mais forte?!",
+      "slug": "como-assim-meu-pau-e-o-rei-demonio-mais-forte",
+      "formato": "Comic"
     },
     {
-      "id": 2495,
-      "nome": "Seja minha musa!",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19460,
+      "nome": "New Heroes",
+      "slug": "new-heroes",
+      "formato": "Comic"
     },
     {
-      "id": 2494,
-      "nome": "B&B",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19459,
+      "nome": "A Arma Suprema Retorna Após 100 Milhões de Anos",
+      "slug": "a-arma-suprema-retorna-apos-100-milhoes-de-anos",
+      "formato": "Comic"
     },
     {
-      "id": 2493,
-      "nome": "A história de uma raposa solitária em busca de amor",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19455,
+      "nome": "O Retorno do Ranker Inigualável",
+      "slug": "o-retorno-do-ranker-inigualavel",
+      "formato": "Comic"
     },
     {
-      "id": 2492,
-      "nome": "Chore pela Lua",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19454,
+      "nome": "O Titã Forjado pelas Estrelas",
+      "slug": "o-tita-forjado-pelas-estrelas",
+      "formato": "Comic"
     },
     {
-      "id": 2491,
-      "nome": "Nó de borboleta +18",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19445,
+      "nome": "Uma Vontade Eterna",
+      "slug": "uma-vontade-eterna",
+      "formato": "Comic"
     },
     {
-      "id": 2490,
-      "nome": "O que fazer se o seu pênis crescer? Inserção +18",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19444,
+      "nome": "Terra Espiritual 2 - A Incomparável Seita Tang",
+      "slug": "terra-espiritual-2-a-incomparavel-seita-tang",
+      "formato": "Comic"
     },
     {
-      "id": 2489,
-      "nome": "Cabelo de Chika-chan +18",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19443,
+      "nome": "Terra Espiritual (Parte 05) - O Renascimento de Tang San",
+      "slug": "terra-espiritual-parte-05-o-renascimento-de-tang-san",
+      "formato": "Comic"
     },
     {
-      "id": 2488,
-      "nome": "Catradora Comic +18",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19442,
+      "nome": "Tão Pura, Tão Provocante",
+      "slug": "tao-pura-tao-provocante",
+      "formato": "Comic"
     },
     {
-      "id": 2487,
-      "nome": "Cativas +18",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19441,
+      "nome": "Tacit",
+      "slug": "tacit",
+      "formato": "Comic"
     },
     {
-      "id": 2486,
-      "nome": "Posso te levar?",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19440,
+      "nome": "Soberbo Deus da Alquimia",
+      "slug": "soberbo-deus-da-alquimia",
+      "formato": "Comic"
     },
     {
-      "id": 2485,
-      "nome": "Calor corporal, batimentos cardíacos +18",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19439,
+      "nome": "Renascimento do Imperador Imortal",
+      "slug": "renascimento-do-imperador-imortal",
+      "formato": "Comic"
     },
     {
-      "id": 2484,
-      "nome": "Você é meu único +18",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19438,
+      "nome": "Reencarnado Há 80.000",
+      "slug": "reencarnado-ha-80-000",
+      "formato": "Comic"
     },
     {
-      "id": 2483,
-      "nome": "Uma mensagem sobre uma história de amor",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19437,
+      "nome": "Reencarnação: Divindade Urbana",
+      "slug": "reencarnacao-divindade-urbana",
+      "formato": "Comic"
     },
     {
-      "id": 2482,
-      "nome": "Dê uma mordida naquele monstro",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19436,
+      "nome": "Rebelião Urbana",
+      "slug": "rebeliao-urbana",
+      "formato": "Comic"
     },
     {
-      "id": 2481,
-      "nome": "Aquele que conecta você e eu",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19435,
+      "nome": "Poderes Globais: Despertei com o Relâmpago Divino logo no Início",
+      "slug": "poderes-globais-despertei-com-o-relampago-divino-logo-no-inicio-6602",
+      "formato": "Comic"
     },
     {
-      "id": 2480,
-      "nome": "Seu e meu beijo culpado +18",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19434,
+      "nome": "O Imortal Urbano Renascido",
+      "slug": "o-imortal-urbano-renascido",
+      "formato": "Comic"
     },
     {
-      "id": 2479,
-      "nome": "Doces, doces beijos até o fim",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19433,
+      "nome": "O Grande Mundo dos Centenários",
+      "slug": "o-grande-mundo-dos-centenarios",
+      "formato": "Comic"
     },
     {
-      "id": 2478,
-      "nome": "Namorada que faz chuva",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19432,
+      "nome": "O Dantian Supremo",
+      "slug": "o-dantian-supremo",
+      "formato": "Comic"
     },
     {
-      "id": 2477,
-      "nome": "segredo do alter +18",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19431,
+      "nome": "Nota Máxima Em Um Casamento Escondido: Pegue Um Filho e Consiga Um Marido De Graça",
+      "slug": "nota-maxima-em-um-casamento-escondido-pegue-um-filho-e-consiga-um-marido-de-graca",
+      "formato": "Comic"
     },
     {
-      "id": 2476,
-      "nome": "Alpha x Alpha 2",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19430,
+      "nome": "Na Real, Eu Sou um Monstro Incomparável",
+      "slug": "na-real-eu-sou-um-monstro-incomparavel",
+      "formato": "Comic"
     },
     {
-      "id": 2475,
-      "nome": "Alpha x Alpha +18",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19429,
+      "nome": "Monarca Divino Ancestral",
+      "slug": "monarca-divino-ancestral",
+      "formato": "Comic"
     },
     {
-      "id": 2474,
-      "nome": "Akira Sensei e Hiyori-chan",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19428,
+      "nome": "Minhas Discípulas São Todas Insanas de Fortes",
+      "slug": "minhas-discipulas-sao-todas-insanas-de-fortes",
+      "formato": "Comic"
     },
     {
-      "id": 2473,
-      "nome": "Aki-chan está pensando +18",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19427,
+      "nome": "Minhas Discípulas São Todas Futuras Mestras Celestiais",
+      "slug": "minhas-discipulas-sao-todas-futuras-mestras-celestiais",
+      "formato": "Comic"
     },
     {
-      "id": 2472,
-      "nome": "A adversidade constrói o caráter +18",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19425,
+      "nome": "Meu Incrível WeChat",
+      "slug": "meu-incrivel-wechat",
+      "formato": "Comic"
     },
     {
-      "id": 2471,
-      "nome": "Ada e Eyva",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19424,
+      "nome": "Lorde Xueying",
+      "slug": "lorde-xueying",
+      "formato": "Comic"
     },
     {
-      "id": 2470,
-      "nome": "Um fim de semana secreto +18",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19423,
+      "nome": "Garoto Suicida",
+      "slug": "garoto-suicida",
+      "formato": "Comic"
     },
     {
-      "id": 2469,
-      "nome": "Um Amor Ainda para Florescer(Oneshot)",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19422,
+      "nome": "Encanto dos Animais Espirituais",
+      "slug": "encanto-dos-animais-espirituais",
+      "formato": "Comic"
     },
     {
-      "id": 2468,
-      "nome": "O fim de semana de um certo casal",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19421,
+      "nome": "A Invasão das Dez Mil Raças: A Super Era",
+      "slug": "a-invasao-das-dez-mil-racas-a-super-era",
+      "formato": "Comic"
     },
     {
-      "id": 2467,
-      "nome": "5 segundos antes de se apaixonar por uma bruxa",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19420,
+      "nome": "0 Deus da Invocação! Quando a Mutação Descende Sobre o Mundo Mortal",
+      "slug": "0-deus-da-invocacao-quando-a-mutacao-descende-sobre-o-mundo-mortal",
+      "formato": "Comic"
     },
     {
-      "id": 2466,
-      "nome": "30 minutos",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19418,
+      "nome": "O Rei do Cartel",
+      "slug": "o-rei-do-cartel",
+      "formato": "Comic"
     },
     {
-      "id": 2464,
-      "nome": "11 da noite com um ídolo +18",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19415,
+      "nome": "O Estilo de Vida de um Imortal",
+      "slug": "o-estilo-de-vida-de-um-imortal",
+      "formato": "Comic"
     },
     {
-      "id": 2463,
-      "nome": "“Eu quero tocar em você” Então o amor começa.",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19414,
+      "nome": "Renascido como Deus da Guerra",
+      "slug": "renascido-como-deus-da-guerra",
+      "formato": "Comic"
     },
     {
-      "id": 2443,
-      "nome": "A Deusa Mais Ciumenta do Universo",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19413,
+      "nome": "O Culto Ao Dinheiro",
+      "slug": "o-culto-ao-dinheiro",
+      "formato": "Comic"
     },
     {
-      "id": 2442,
-      "nome": "Ímpio",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19411,
+      "nome": "Cultivador Moderno: Entre o Qi e o Wi-Fi",
+      "slug": "cultivador-moderno-entre-o-qi-e-o-wi-fi",
+      "formato": "Comic"
     },
     {
-      "id": 2441,
-      "nome": "Sem saber que Sua Majestade é uma menina",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19410,
+      "nome": "O Deus Maligno Desce, Eu Possuo o Grande Inferno",
+      "slug": "o-deus-maligno-desce-eu-possuo-o-grande-inferno",
+      "formato": "Comic"
     },
     {
-      "id": 2440,
-      "nome": "A vida universitária que eu sonhava… Não é assim!",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19408,
+      "nome": "O Que Nosso Herói Está Fazendo?",
+      "slug": "o-que-nosso-heroi-esta-fazendo",
+      "formato": "Comic"
     },
     {
-      "id": 2439,
-      "nome": "Unnie! Vou te marcar",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19406,
+      "nome": "Vamos lutar",
+      "slug": "vamos-lutar",
+      "formato": "Comic"
     },
     {
-      "id": 2438,
-      "nome": "Princesas Inúteis",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19403,
+      "nome": "O Fazendeiro de Mortos-Vivos",
+      "slug": "o-fazendeiro-de-mortos-vivos",
+      "formato": "Comic"
     },
     {
-      "id": 2437,
-      "nome": "Atenção! Cuidado com o cão",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19401,
+      "nome": "Mestre Heroico, Eu e Meus Dez Discípulos Lendários",
+      "slug": "mestre-heroico-eu-e-meus-dez-discipulos-lendarios",
+      "formato": "Comic"
     },
     {
-      "id": 2436,
-      "nome": "Não tem motivo para eu ser sua namorada, é impossível! Não é impossível!?",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19400,
+      "nome": "Meu Marido Tem Um Harém Um Pouco Exagerado",
+      "slug": "meu-marido-tem-um-harem-um-pouco-exagerado",
+      "formato": "Comic"
     },
     {
-      "id": 2435,
-      "nome": "Pegue meu punho!",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19399,
+      "nome": "O Eterno Mago de Suporte se Torna o Mais Forte Sábio",
+      "slug": "o-eterno-mago-de-suporte-se-torna-o-mais-forte-sabio",
+      "formato": "Comic"
     },
     {
-      "id": 2434,
-      "nome": "Não Podemos Desenhar o Amor",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19398,
+      "nome": "Decidi me tornar um vilão",
+      "slug": "decidi-me-tornar-um-vilao",
+      "formato": "Comic"
     },
     {
-      "id": 2433,
-      "nome": "(+18) FRAQUEZA",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19396,
+      "nome": "Sala da Vilã",
+      "slug": "sala-da-vila",
+      "formato": "Comic"
     },
     {
-      "id": 2432,
-      "nome": "Quais são as chances",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19394,
+      "nome": "Renascido como Imperador",
+      "slug": "renascido-como-imperador",
+      "formato": "Comic"
     },
     {
-      "id": 2431,
-      "nome": "Com o que a borboleta venenosa sonha",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19393,
+      "nome": "O Renascimento do Deus Prodígio",
+      "slug": "o-renascimento-do-deus-prodigio-1029",
+      "formato": "Comic"
     },
     {
-      "id": 2428,
-      "nome": "O que é amor normal?",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19391,
+      "nome": "Sozinho no Apocalipse, Eu irei Extinguir o Caos",
+      "slug": "sozinho-no-apocalipse-eu-irei-extinguir-o-caos-591",
+      "formato": "Comic"
     },
     {
-      "id": 2427,
-      "nome": "O que devo fazer se assinei um contrato de casamento com a princesa élfica?",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19389,
+      "nome": "Barraca de Comida Apocalíptica",
+      "slug": "barraca-de-comida-apocaliptica-6229",
+      "formato": "Comic"
     },
     {
-      "id": 2426,
-      "nome": "Quando a vilã encontra a heroína louca",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19387,
+      "nome": "Centro de Trauma",
+      "slug": "centro-de-trauma",
+      "formato": "Comic"
     },
     {
-      "id": 2425,
-      "nome": "(+18) Quando nos aproximamos",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19386,
+      "nome": "O Jogo do Cultivo Imortal",
+      "slug": "o-jogo-do-cultivo-imortal",
+      "formato": "Comic"
     },
     {
-      "id": 2424,
-      "nome": "Lírios brancos apaixonados: Antologia Yuri da noiva recém-casada",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19385,
+      "nome": "O Druída da Estação Seul",
+      "slug": "o-druida-da-estacao-seul",
+      "formato": "Comic"
     },
     {
-      "id": 2423,
-      "nome": "Por que eu, o MC do Gal Game, entrei no mundo dos quadrinhos do Yuri",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19384,
+      "nome": "Eu me Tornei um Vilão numa Fantasia Sombria",
+      "slug": "eu-me-tornei-um-vilao-numa-fantasia-sombria-3548",
+      "formato": "Comic"
     },
     {
-      "id": 2422,
-      "nome": "Ponto Maligno",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19382,
+      "nome": "Os Preços Caíram, Estou Rico!",
+      "slug": "os-precos-cairam-estou-rico",
+      "formato": "Comic"
     },
     {
-      "id": 2421,
-      "nome": "Inverno antes da primavera",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19381,
+      "nome": "Porque eu sou um tio que tem uma loja de armas",
+      "slug": "porque-eu-sou-um-tio-que-tem-uma-loja-de-armas",
+      "formato": "Comic"
     },
     {
-      "id": 2420,
-      "nome": "Palavras e Beijos",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19380,
+      "nome": "O Que Não Pode Matar",
+      "slug": "o-que-nao-pode-matar",
+      "formato": "Comic"
     },
     {
-      "id": 2419,
-      "nome": "Você faria isso? Você poderia fazer isso?",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19379,
+      "nome": "Acontece Que Sou Invencível Há Muito Tempo",
+      "slug": "acontece-que-sou-invencivel-ha-muito-tempo",
+      "formato": "Comic"
     },
     {
-      "id": 2417,
-      "nome": "Saboroso",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19378,
+      "nome": "Rei Demônio Marcial",
+      "slug": "rei-demonio-marcial",
+      "formato": "Comic"
     },
     {
-      "id": 2416,
-      "nome": "Manual da namorada",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19377,
+      "nome": "Gosu",
+      "slug": "gosu",
+      "formato": "Comic"
     },
     {
-      "id": 2415,
-      "nome": "Conhecendo a Graça",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19375,
+      "nome": "Time dos Sonhos",
+      "slug": "time-dos-sonhos",
+      "formato": "Comic"
     },
     {
-      "id": 2414,
-      "nome": "Fantasmas de Greywoods",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19374,
+      "nome": "Renascido por Bestas",
+      "slug": "renascido-por-bestas",
+      "formato": "Comic"
     },
     {
-      "id": 2411,
-      "nome": "Xian Chan Nu",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19373,
+      "nome": "Dinastia joseon",
+      "slug": "dinastia-joseon",
+      "formato": "Comic"
     },
     {
-      "id": 2410,
-      "nome": "Ansiando por uma noite cheia de você",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19372,
+      "nome": "Terra Espiritual (Parte 2.5) - A Lenda do Reino dos Deuses",
+      "slug": "terra-espiritual-parte-2-5-a-lenda-do-reino-dos-deuses",
+      "formato": "Comic"
     },
     {
-      "id": 2409,
-      "nome": "Amarelo",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19371,
+      "nome": "Rompendo Limites",
+      "slug": "rompendo-limites",
+      "formato": "Comic"
     },
     {
-      "id": 2408,
-      "nome": "Você pode me odiar",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19370,
+      "nome": "Renasci Milhares De Vezes Para Ficar Forte",
+      "slug": "renasci-milhares-de-vezes-para-ficar-forte",
+      "formato": "Comic"
     },
     {
-      "id": 2407,
-      "nome": "Você tem um gosto um pouco doce",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19369,
+      "nome": "Frenesi de Batalha",
+      "slug": "frenesi-de-batalha",
+      "formato": "Comic"
     },
     {
-      "id": 2406,
-      "nome": "Sua verdadeira cor",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19368,
+      "nome": "Um Rei Demônio Quase Nulo",
+      "slug": "um-rei-demonio-quase-nulo",
+      "formato": "Comic"
     },
     {
-      "id": 2405,
-      "nome": "Yove",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19364,
+      "nome": "O Antigo Aventureiro do Ranque S Quer Viver uma Vida Tranquila no Campo",
+      "slug": "o-antigo-aventureiro-do-ranque-s-quer-viver-uma-vida-tranquila-no-campo-7902",
+      "formato": "Comic"
     },
     {
-      "id": 2404,
-      "nome": "Yuri é meu trabalho!",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19362,
+      "nome": "Entrega Divina",
+      "slug": "entrega-divina-1091",
+      "formato": "Comic"
     },
     {
-      "id": 2403,
-      "nome": "(+18) Quando os lírios começam a brotar",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19360,
+      "nome": "Jornada ao Oeste - Apocalipse",
+      "slug": "jornada-ao-oeste-apocalipse",
+      "formato": "Comic"
     },
     {
-      "id": 2402,
-      "nome": "Yuri Yuri Panic: Um caso extremamente precioso começou",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19359,
+      "nome": "Imperador Divino Imponente",
+      "slug": "imperador-divino-imponente",
+      "formato": "Comic"
     },
     {
-      "id": 2394,
-      "nome": "Beijo Fatal",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19358,
+      "nome": "Sistema de contra-ataque disponível no estágio Grand Ascension",
+      "slug": "sistema-de-contra-ataque-disponivel-no-estagio-grand-ascension",
+      "formato": "Comic"
     },
     {
-      "id": 2393,
-      "nome": "Caindo Azul",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19357,
+      "nome": "Eu Sou um Sugar Baby em Outro Mundo",
+      "slug": "eu-sou-um-sugar-baby-em-outro-mundo",
+      "formato": "Comic"
     },
     {
-      "id": 2392,
-      "nome": "Apaixonando-se pela Imperatriz",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19356,
+      "nome": "Eu Caminho na Noite Consumido Por Lâminas",
+      "slug": "eu-caminho-na-noite-consumido-por-laminas",
+      "formato": "Comic"
     },
     {
-      "id": 2391,
-      "nome": "Não se apaixone!",
-      "slug": "",
-      "formato": "Yuri"
+      "id": 19355,
+      "nome": "Come alguma coisa antes de ir",
+      "slug": "come-alguma-coisa-antes-de-ir",
+      "formato": "Comic"
     },
     {
       "id": 18326,
@@ -4899,6 +4891,906 @@
       "formato": "Yuri"
     },
     {
+      "id": 18552,
+      "nome": "Laranja Danificada",
+      "slug": "laranja-danificada",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18547,
+      "nome": "Por que Você Insiste em me Matar?",
+      "slug": "por-que-voce-insiste-em-me-matar",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18546,
+      "nome": "A Revanche da Filha Ilegítima da Família de Magos",
+      "slug": "a-revanche-da-filha-ilegitima-da-familia-de-magos",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18545,
+      "nome": "Reencarnei Como a Princesa do Inimigo",
+      "slug": "reencarnei-como-a-princesa-do-inimigo",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18544,
+      "nome": "Lala",
+      "slug": "lala",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18543,
+      "nome": "Eu, que sou Ignorante Deste Mundo, me Tornei uma Princesa",
+      "slug": "eu-que-sou-ignorante-deste-mundo-me-tornei-uma-princesa",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18542,
+      "nome": "Se Tornando uma Família com o Duque e Seu Querido Filho",
+      "slug": "se-tornando-uma-familia-com-o-duque-e-seu-querido-filho",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18541,
+      "nome": "Bulinadora de Inocente",
+      "slug": "bulinadora-de-inocente",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18540,
+      "nome": "Estou Apenas Aproveitando meu Tempo Limite",
+      "slug": "estou-apenas-aproveitando-meu-tempo-limite",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18539,
+      "nome": "Rosalina Bogarti",
+      "slug": "rosalina-bogarti",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18538,
+      "nome": "Seu Trono",
+      "slug": "seu-trono",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18537,
+      "nome": "Príncipe do Telhado",
+      "slug": "principe-do-telhado",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18536,
+      "nome": "Nosso Casamento Secreto",
+      "slug": "nosso-casamento-secreto",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18535,
+      "nome": "A Pedra Lançada Ao Lago",
+      "slug": "a-pedra-lancada-ao-lago",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18534,
+      "nome": "Sobrevivendo Como a Esposa do Héroi",
+      "slug": "sobrevivendo-como-a-esposa-do-heroi",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18533,
+      "nome": "Dodói vs Feijãozinho, Fight!",
+      "slug": "dodoi-vs-feijaozinho-fight",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18532,
+      "nome": "Senhora Fera",
+      "slug": "senhora-fera",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18531,
+      "nome": "Personagens Secundários Merecem Amar Também",
+      "slug": "personagens-secundarios-merecem-amar-tambem",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18530,
+      "nome": "Separador de Casais",
+      "slug": "separador-de-casais",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18529,
+      "nome": "A Segunda Vida no Tapete Vermelho",
+      "slug": "a-segunda-vida-no-tapete-vermelho",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18528,
+      "nome": "O Amor Está Morto",
+      "slug": "o-amor-esta-morto",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18527,
+      "nome": "Réquiem para a Rainha",
+      "slug": "requiem-para-a-rainha",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18526,
+      "nome": "Renascida Como Uma Personagem que Nunca Existiu",
+      "slug": "renascida-como-uma-personagem-que-nunca-existiu",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18525,
+      "nome": "Quando a Vilã Ama",
+      "slug": "quando-a-vila-ama",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18524,
+      "nome": "O Vento Leste das Altas",
+      "slug": "o-vento-leste-das-altas",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18523,
+      "nome": "O Marquês e a Dama de Ferro",
+      "slug": "o-marques-e-a-dama-de-ferro",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18522,
+      "nome": "O Manual para Vilãs",
+      "slug": "o-manual-para-vilas",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18520,
+      "nome": "Provavelmente Cometi um Erro ao me Casar",
+      "slug": "provavelmente-cometi-um-erro-ao-me-casar",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18519,
+      "nome": "A Falsa Imperatriz Ainda Passa Na Primeira Noite",
+      "slug": "a-falsa-imperatriz-ainda-passa-na-primeira-noite",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18518,
+      "nome": "Prazer Em Te Conhecer",
+      "slug": "prazer-em-te-conhecer",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18517,
+      "nome": "Príncipe de Seda e Espinho",
+      "slug": "principe-de-seda-e-espinho",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18516,
+      "nome": "A Flor da França",
+      "slug": "a-flor-da-franca",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18515,
+      "nome": "Espinhos Que Me Perfuram",
+      "slug": "espinhos-que-me-perfuram",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18514,
+      "nome": "Meu Universo",
+      "slug": "meu-universo",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18513,
+      "nome": "Amor Secreto Perfeito: A Nova Esposa Má é um Pouco Doce",
+      "slug": "amor-secreto-perfeito-a-nova-esposa-ma-e-um-pouco-doce",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18505,
+      "nome": "A Vilã Sou Eu",
+      "slug": "a-vila-sou-eu",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18503,
+      "nome": "Monstros e Garotas",
+      "slug": "monstros-e-garotas",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18502,
+      "nome": "Aposta da Medalha de Ouro",
+      "slug": "aposta-da-medalha-de-ouro",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18501,
+      "nome": "As Memórias de uma Bruxa",
+      "slug": "as-memorias-de-uma-bruxa",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18500,
+      "nome": "Guia de Dieta de uma Dama",
+      "slug": "guia-de-dieta-de-uma-dama",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18499,
+      "nome": "Pelo Que Eu Decidi Morrer",
+      "slug": "pelo-que-eu-decidi-morrer",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18498,
+      "nome": "O Som do Pão",
+      "slug": "o-som-do-pao",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18497,
+      "nome": "A Esposa Abandonada Tem um Novo Marido",
+      "slug": "a-esposa-abandonada-tem-um-novo-marido",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18495,
+      "nome": "Fale Comigo",
+      "slug": "fale-comigo",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18494,
+      "nome": "A Empregada Não Deseja Mais Seu Mestre",
+      "slug": "a-empregada-nao-deseja-mais-seu-mestre",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18493,
+      "nome": "A Nave Espacial da Princesa",
+      "slug": "a-nave-espacial-da-princesa",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18492,
+      "nome": "Vamos Tomar Banho Juntos, Duque!",
+      "slug": "vamos-tomar-banho-juntos-duque",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18491,
+      "nome": "William e o Guarda-Roupa",
+      "slug": "william-e-o-guarda-roupa",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18490,
+      "nome": " Na Estação em que os Girassóis Sussurram",
+      "slug": "na-estacao-em-que-os-girassois-sussurram",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18489,
+      "nome": " A Companheira do Imugi",
+      "slug": "a-companheira-do-imugi",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18488,
+      "nome": "Romance de Virada",
+      "slug": "romance-de-virada",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18487,
+      "nome": "Eu Sei o Seu Segredo",
+      "slug": "eu-sei-o-seu-segredo",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18486,
+      "nome": "Agatha",
+      "slug": "agatha",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18484,
+      "nome": "Eu Domei o Protagonista Masculino Que Tentou me Matar",
+      "slug": "eu-domei-o-protagonista-masculino-que-tentou-me-matar",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18483,
+      "nome": "As Circunstâncias do tolo ondal",
+      "slug": "as-circunstancias-do-tolo-ondal",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18482,
+      "nome": "Contos de Fada Eróticos",
+      "slug": "contos-de-fada-eroticos",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18481,
+      "nome": "Mate Meu Marido",
+      "slug": "mate-meu-marido",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18480,
+      "nome": "Homens do Harém",
+      "slug": "homens-do-harem",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18479,
+      "nome": "Joseon Proibiu Casamentos!",
+      "slug": "joseon-proibiu-casamentos",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18478,
+      "nome": "O Cara Do Andar De Cima",
+      "slug": "o-cara-do-andar-de-cima",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18477,
+      "nome": "Iniciando Novamente",
+      "slug": "iniciando-novamente",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18476,
+      "nome": "Não Podemos Escapar a Menos que Façamos Isso?!",
+      "slug": "nao-podemos-escapar-a-menos-que-facamos-isso",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18475,
+      "nome": "Mãos Para Cima, Você é Minha",
+      "slug": "maos-para-cima-voce-e-minha",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18474,
+      "nome": "Noite de Imoralidade",
+      "slug": "noite-de-imoralidade",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18473,
+      "nome": "Tempo de Ouro",
+      "slug": "tempo-de-ouro",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18472,
+      "nome": "Lily",
+      "slug": "lily",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18471,
+      "nome": "O Marquês Selvagem Fode A Princesa",
+      "slug": "o-marques-selvagem-fode-a-princesa",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18470,
+      "nome": "O Que Está Fazendo, Raposa?",
+      "slug": "o-que-esta-fazendo-raposa",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18469,
+      "nome": "Mesmo Sendo a Vilã, Vou Me Tornar a Heroína!",
+      "slug": "mesmo-sendo-a-vila-vou-me-tornar-a-heroina",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18468,
+      "nome": "Figurantes São os Primeiros a Serem Abandonados",
+      "slug": "figurantes-sao-os-primeiros-a-serem-abandonados",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18467,
+      "nome": "Imperatriz? Imperatriz!",
+      "slug": "imperatriz-imperatriz",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18466,
+      "nome": "A Protagonista Feminina Éminence Grise Está Tentando Me Fazer Sua Madrasta",
+      "slug": "a-protagonista-feminina-eminence-grise-esta-tentando-me-fazer-sua-madrasta",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18459,
+      "nome": "O Poderoso Mestre é Louco por Mim",
+      "slug": "o-poderoso-mestre-e-louco-por-mim",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18458,
+      "nome": "Saia, Romeu.",
+      "slug": "saia-romeu",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18456,
+      "nome": "Desobedeça ao Duque se Você Ousar",
+      "slug": "desobedeca-ao-duque-se-voce-ousar",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18455,
+      "nome": "Não Confie na Protagonista Feminina",
+      "slug": "nao-confie-na-protagonista-feminina",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18454,
+      "nome": "Coroando Meu Príncipe Feroz",
+      "slug": "coroando-meu-principe-feroz",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18453,
+      "nome": "Criador De Vilãs",
+      "slug": "criador-de-vilas",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18452,
+      "nome": "Coração de Apolo",
+      "slug": "coracao-de-apolo",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18451,
+      "nome": "Concentração de Malícia",
+      "slug": "concentracao-de-malicia",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18450,
+      "nome": "Eu Não Era a Cinderela",
+      "slug": "eu-nao-era-a-cinderela",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18449,
+      "nome": "Capitão! Onde fica esse campo de batalha?",
+      "slug": "capitao-onde-fica-esse-campo-de-batalha",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18448,
+      "nome": "Cuidado com os Irmãos!",
+      "slug": "cuidado-com-os-irmaos",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18447,
+      "nome": "Inverno Negro",
+      "slug": "inverno-negro",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18445,
+      "nome": "Pequeno Urso Yu e Coelha Xu",
+      "slug": "pequeno-urso-yu-e-coelha-xu",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18444,
+      "nome": " Sob a Flor Caída",
+      "slug": "sob-a-flor-caida",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18443,
+      "nome": "Transformando o Tigre em Gatinho",
+      "slug": "transformando-o-tigre-em-gatinho",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18442,
+      "nome": "Como Disse Meu Marido, Trouxe Um Amante",
+      "slug": "como-disse-meu-marido-trouxe-um-amante",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18441,
+      "nome": "Sou Eu a Filha?",
+      "slug": "sou-eu-a-filha",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18424,
+      "nome": "As Mentiras se Tornaram Você",
+      "slug": "as-mentiras-se-tornaram-voce",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18423,
+      "nome": "A Vilã precisa de um Tirano",
+      "slug": "a-vila-precisa-de-um-tirano",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18422,
+      "nome": "A Santa Escondida",
+      "slug": "a-santa-escondida",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18421,
+      "nome": "A Salvadora Favorita",
+      "slug": "a-salvadora-favorita",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18420,
+      "nome": "Um Sinal de Repetição",
+      "slug": "um-sinal-de-repeticao",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18419,
+      "nome": "A Princesa Tirana Quer Se Casar",
+      "slug": "a-princesa-tirana-quer-se-casar",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18418,
+      "nome": "A Princesa Floresce como uma Flor Maluca",
+      "slug": "a-princesa-floresce-como-uma-flor-maluca",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18417,
+      "nome": "A Noiva Secreta do Leão Branco",
+      "slug": "a-noiva-secreta-do-leao-branco",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18416,
+      "nome": "A Milionária Divorciada",
+      "slug": "a-milionaria-divorciada",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18415,
+      "nome": "O Pássaro de um Rei Goblin",
+      "slug": "o-passaro-de-um-rei-goblin",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18414,
+      "nome": "Uma Empregada Capaz",
+      "slug": "uma-empregada-capaz",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18413,
+      "nome": "Queijo na Armadilha",
+      "slug": "queijo-na-armadilha",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18412,
+      "nome": "Jacinto Púrpura",
+      "slug": "jacinto-purpura",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18411,
+      "nome": "Eu Me Tornei uma Figurante Miserável em uma História de Cura",
+      "slug": "eu-me-tornei-uma-figurante-miseravel-em-uma-historia-de-cura",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18410,
+      "nome": "Nascida como a Filha de uma Humilde Concubina",
+      "slug": "nascida-como-a-filha-de-uma-humilde-concubina",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18409,
+      "nome": "Criando os filhos do Protagonista",
+      "slug": "criando-os-filhos-do-protagonista",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18408,
+      "nome": "Meus 4 Maridos!",
+      "slug": "meus-4-maridos",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18407,
+      "nome": "Oh! Nossa!",
+      "slug": "oh-nossa",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18406,
+      "nome": "Minha Vida como uma Empregada da Torre Trancada com o Príncipe",
+      "slug": "minha-vida-como-uma-empregada-da-torre-trancada-com-o-principe",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18405,
+      "nome": "Meu Pai é o Inimigo da Minha Vida Passada?",
+      "slug": "meu-pai-e-o-inimigo-da-minha-vida-passada",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18404,
+      "nome": "O Motivo pelo qual Ophelia não Consegue Escapar do Duque",
+      "slug": "o-motivo-pelo-qual-ophelia-nao-consegue-escapar-do-duque",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18403,
+      "nome": "Eu Criei os Vilões com Amor",
+      "slug": "eu-criei-os-viloes-com-amor-3428",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18401,
+      "nome": "Ohh, Chama a Policia Ai! Porque Essa Morena Acabou de Roubar o Meu Coração",
+      "slug": "ohh-chama-a-policia-ai-porque-essa-morena-acabou-de-roubar-o-meu-coracao",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18400,
+      "nome": "Hawar no Jardim de Inverno",
+      "slug": "hawar-no-jardim-de-inverno",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18399,
+      "nome": "Verdadeira Beleza",
+      "slug": "verdadeira-beleza",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18394,
+      "nome": "Iris a Dama e o Aparelho",
+      "slug": "iris-a-dama-e-o-aparelho",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18393,
+      "nome": "Sou A Irmã Mais Velha De Um Canalha",
+      "slug": "sou-a-irma-mais-velha-de-um-canalha",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18392,
+      "nome": "Nem Todo Mundo Pode Mudar A História Original",
+      "slug": "nem-todo-mundo-pode-mudar-a-historia-original",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18391,
+      "nome": "Lua Negra: O Altar de Sangue",
+      "slug": "lua-negra-o-altar-de-sangue",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18390,
+      "nome": "Se Tocar No Meu Irmão, Você Estará Morto",
+      "slug": "se-tocar-no-meu-irmao-voce-estara-morto",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18389,
+      "nome": "Eu vou Viver Minha Vida como eu Quiser",
+      "slug": "eu-vou-viver-minha-vida-como-eu-quiser",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18388,
+      "nome": "Eu Pedi o Papa em Casamento",
+      "slug": "eu-pedi-o-papa-em-casamento",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18387,
+      "nome": "A noiva Obsidiana",
+      "slug": "a-noiva-obsidiana-2644",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18386,
+      "nome": "Minha Família Está Obcecada por Mim",
+      "slug": "minha-familia-esta-obcecada-por-mim",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18385,
+      "nome": "Como Caçar sua Mestra",
+      "slug": "como-cacar-sua-mestra",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18384,
+      "nome": "Cadê Meus Pais?",
+      "slug": "cade-meus-pais",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18383,
+      "nome": "A Heroína Secreta de Sua Majestade.",
+      "slug": "a-heroina-secreta-de-sua-majestade",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18382,
+      "nome": "O tirano possessivo e a gata sonolenta",
+      "slug": "o-tirano-possessivo-e-a-gata-sonolenta",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18381,
+      "nome": "A Justiça de uma Lady Vilã",
+      "slug": "a-justica-de-uma-lady-vila",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18380,
+      "nome": "Em Busca da Alvorada",
+      "slug": "em-busca-da-alvorada",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18378,
+      "nome": "A Preciosa Filha do Maior Vilão das Artes Marciais",
+      "slug": "a-preciosa-filha-do-maior-vilao-das-artes-marciais",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18377,
+      "nome": "Este é um casamento obviamente fraudulento",
+      "slug": "este-e-um-casamento-obviamente-fraudulento",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18376,
+      "nome": "Esta Vilã Quer o Divórcio",
+      "slug": "esta-vila-quer-o-divorcio",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18375,
+      "nome": "Solhwa de Ellin",
+      "slug": "solhwa-de-ellin",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18374,
+      "nome": "A Salvadora do Dragão",
+      "slug": "a-salvadora-do-dragao",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18373,
+      "nome": "A Princesa Falsa Dominou o Coelho",
+      "slug": "a-princesa-falsa-dominou-o-coelho",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18372,
+      "nome": "Meu Marido, Minha Irmã e Eu",
+      "slug": "meu-marido-minha-irma-e-eu",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18371,
+      "nome": "A Guardiã do Tirano é a Bruxa Má",
+      "slug": "a-guardia-do-tirano-e-a-bruxa-ma",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18370,
+      "nome": "Uma Existência Amada",
+      "slug": "uma-existencia-amada",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18369,
+      "nome": "Lições Após a Escola para Maçãs Imaturas",
+      "slug": "licoes-apos-a-escola-para-macas-imaturas",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18368,
+      "nome": "Eu domestiquei o protagonista com meus punhos",
+      "slug": "eu-domestiquei-o-protagonista-com-meus-punhos",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18367,
+      "nome": "Amor do Sultão",
+      "slug": "amor-do-sultao",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18366,
+      "nome": "Meus Parentes estão Obcecados Por Mim",
+      "slug": "meus-parentes-estao-obcecados-por-mim",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18358,
+      "nome": "A Duquesa Monstro e Princesa Contratada",
+      "slug": "a-duquesa-monstro-e-princesa-contratada",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18357,
+      "nome": "Eu Vim Para Destruir!",
+      "slug": "eu-vim-para-destruir",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18356,
+      "nome": "Uma estrela que surge durante dia",
+      "slug": "uma-estrela-que-surge-durante-dia",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18355,
+      "nome": "5500 Sombras do Rei Demônio",
+      "slug": "5500-sombras-do-rei-demonio",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18354,
+      "nome": "Querida, Por Que Se Arrepende?",
+      "slug": "querida-por-que-se-arrepende",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18353,
+      "nome": "Bebê Dragão",
+      "slug": "bebe-dragao",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18352,
+      "nome": "Ajudando o Irmão e Faturando Um Boy",
+      "slug": "ajudando-o-irmao-e-faturando-um-boy",
+      "formato": "Shoujo"
+    },
+    {
+      "id": 18351,
+      "nome": "Sou O Vilão, Mas Estou Sendo Favorecido",
+      "slug": "sou-o-vilao-mas-estou-sendo-favorecido",
+      "formato": "Shoujo"
+    },
+    {
       "id": 2609,
       "nome": "Marca do Destino",
       "slug": "",
@@ -5799,904 +6691,10 @@
       "formato": "Yaoi"
     },
     {
-      "id": 18547,
-      "nome": "Por que Você Insiste em me Matar?",
-      "slug": "por-que-voce-insiste-em-me-matar",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18546,
-      "nome": "A Revanche da Filha Ilegítima da Família de Magos",
-      "slug": "a-revanche-da-filha-ilegitima-da-familia-de-magos",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18545,
-      "nome": "Reencarnei Como a Princesa do Inimigo",
-      "slug": "reencarnei-como-a-princesa-do-inimigo",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18544,
-      "nome": "Lala",
-      "slug": "lala",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18543,
-      "nome": "Eu, que sou Ignorante Deste Mundo, me Tornei uma Princesa",
-      "slug": "eu-que-sou-ignorante-deste-mundo-me-tornei-uma-princesa",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18542,
-      "nome": "Se Tornando uma Família com o Duque e Seu Querido Filho",
-      "slug": "se-tornando-uma-familia-com-o-duque-e-seu-querido-filho",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18541,
-      "nome": "Bulinadora de Inocente",
-      "slug": "bulinadora-de-inocente",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18540,
-      "nome": "Estou Apenas Aproveitando meu Tempo Limite",
-      "slug": "estou-apenas-aproveitando-meu-tempo-limite",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18539,
-      "nome": "Rosalina Bogarti",
-      "slug": "rosalina-bogarti",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18538,
-      "nome": "Seu Trono",
-      "slug": "seu-trono",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18537,
-      "nome": "Príncipe do Telhado",
-      "slug": "principe-do-telhado",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18536,
-      "nome": "Nosso Casamento Secreto",
-      "slug": "nosso-casamento-secreto",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18535,
-      "nome": "A Pedra Lançada Ao Lago",
-      "slug": "a-pedra-lancada-ao-lago",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18534,
-      "nome": "Sobrevivendo Como a Esposa do Héroi",
-      "slug": "sobrevivendo-como-a-esposa-do-heroi",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18533,
-      "nome": "Dodói vs Feijãozinho, Fight!",
-      "slug": "dodoi-vs-feijaozinho-fight",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18532,
-      "nome": "Senhora Fera",
-      "slug": "senhora-fera",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18531,
-      "nome": "Personagens Secundários Merecem Amar Também",
-      "slug": "personagens-secundarios-merecem-amar-tambem",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18530,
-      "nome": "Separador de Casais",
-      "slug": "separador-de-casais",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18529,
-      "nome": "A Segunda Vida no Tapete Vermelho",
-      "slug": "a-segunda-vida-no-tapete-vermelho",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18528,
-      "nome": "O Amor Está Morto",
-      "slug": "o-amor-esta-morto",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18527,
-      "nome": "Réquiem para a Rainha",
-      "slug": "requiem-para-a-rainha",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18526,
-      "nome": "Renascida Como Uma Personagem que Nunca Existiu",
-      "slug": "renascida-como-uma-personagem-que-nunca-existiu",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18525,
-      "nome": "Quando a Vilã Ama",
-      "slug": "quando-a-vila-ama",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18524,
-      "nome": "O Vento Leste das Altas",
-      "slug": "o-vento-leste-das-altas",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18523,
-      "nome": "O Marquês e a Dama de Ferro",
-      "slug": "o-marques-e-a-dama-de-ferro",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18522,
-      "nome": "O Manual para Vilãs",
-      "slug": "o-manual-para-vilas",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18520,
-      "nome": "Provavelmente Cometi um Erro ao me Casar",
-      "slug": "provavelmente-cometi-um-erro-ao-me-casar",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18519,
-      "nome": "A Falsa Imperatriz Ainda Passa Na Primeira Noite",
-      "slug": "a-falsa-imperatriz-ainda-passa-na-primeira-noite",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18518,
-      "nome": "Prazer Em Te Conhecer",
-      "slug": "prazer-em-te-conhecer",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18517,
-      "nome": "Príncipe de Seda e Espinho",
-      "slug": "principe-de-seda-e-espinho",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18516,
-      "nome": "A Flor da França",
-      "slug": "a-flor-da-franca",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18515,
-      "nome": "Espinhos Que Me Perfuram",
-      "slug": "espinhos-que-me-perfuram",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18514,
-      "nome": "Meu Universo",
-      "slug": "meu-universo",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18513,
-      "nome": "Amor Secreto Perfeito: A Nova Esposa Má é um Pouco Doce",
-      "slug": "amor-secreto-perfeito-a-nova-esposa-ma-e-um-pouco-doce",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18505,
-      "nome": "A Vilã Sou Eu",
-      "slug": "a-vila-sou-eu",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18503,
-      "nome": "Monstros e Garotas",
-      "slug": "monstros-e-garotas",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18502,
-      "nome": "Aposta da Medalha de Ouro",
-      "slug": "aposta-da-medalha-de-ouro",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18501,
-      "nome": "As Memórias de uma Bruxa",
-      "slug": "as-memorias-de-uma-bruxa",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18500,
-      "nome": "Guia de Dieta de uma Dama",
-      "slug": "guia-de-dieta-de-uma-dama",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18499,
-      "nome": "Pelo Que Eu Decidi Morrer",
-      "slug": "pelo-que-eu-decidi-morrer",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18498,
-      "nome": "O Som do Pão",
-      "slug": "o-som-do-pao",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18497,
-      "nome": "A Esposa Abandonada Tem um Novo Marido",
-      "slug": "a-esposa-abandonada-tem-um-novo-marido",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18495,
-      "nome": "Fale Comigo",
-      "slug": "fale-comigo",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18494,
-      "nome": "A Empregada Não Deseja Mais Seu Mestre",
-      "slug": "a-empregada-nao-deseja-mais-seu-mestre",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18493,
-      "nome": "A Nave Espacial da Princesa",
-      "slug": "a-nave-espacial-da-princesa",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18492,
-      "nome": "Vamos Tomar Banho Juntos, Duque!",
-      "slug": "vamos-tomar-banho-juntos-duque",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18491,
-      "nome": "William e o Guarda-Roupa",
-      "slug": "william-e-o-guarda-roupa",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18490,
-      "nome": " Na Estação em que os Girassóis Sussurram",
-      "slug": "na-estacao-em-que-os-girassois-sussurram",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18489,
-      "nome": " A Companheira do Imugi",
-      "slug": "a-companheira-do-imugi",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18488,
-      "nome": "Romance de Virada",
-      "slug": "romance-de-virada",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18487,
-      "nome": "Eu Sei o Seu Segredo",
-      "slug": "eu-sei-o-seu-segredo",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18486,
-      "nome": "Agatha",
-      "slug": "agatha",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18484,
-      "nome": "Eu Domei o Protagonista Masculino Que Tentou me Matar",
-      "slug": "eu-domei-o-protagonista-masculino-que-tentou-me-matar",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18483,
-      "nome": "As Circunstâncias do tolo ondal",
-      "slug": "as-circunstancias-do-tolo-ondal",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18482,
-      "nome": "Contos de Fada Eróticos",
-      "slug": "contos-de-fada-eroticos",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18481,
-      "nome": "Mate Meu Marido",
-      "slug": "mate-meu-marido",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18480,
-      "nome": "Homens do Harém",
-      "slug": "homens-do-harem",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18479,
-      "nome": "Joseon Proibiu Casamentos!",
-      "slug": "joseon-proibiu-casamentos",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18478,
-      "nome": "O Cara Do Andar De Cima",
-      "slug": "o-cara-do-andar-de-cima",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18477,
-      "nome": "Iniciando Novamente",
-      "slug": "iniciando-novamente",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18476,
-      "nome": "Não Podemos Escapar a Menos que Façamos Isso?!",
-      "slug": "nao-podemos-escapar-a-menos-que-facamos-isso",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18475,
-      "nome": "Mãos Para Cima, Você é Minha",
-      "slug": "maos-para-cima-voce-e-minha",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18474,
-      "nome": "Noite de Imoralidade",
-      "slug": "noite-de-imoralidade",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18473,
-      "nome": "Tempo de Ouro",
-      "slug": "tempo-de-ouro",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18472,
-      "nome": "Lily",
-      "slug": "lily",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18471,
-      "nome": "O Marquês Selvagem Fode A Princesa",
-      "slug": "o-marques-selvagem-fode-a-princesa",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18470,
-      "nome": "O Que Está Fazendo, Raposa?",
-      "slug": "o-que-esta-fazendo-raposa",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18469,
-      "nome": "Mesmo Sendo a Vilã, Vou Me Tornar a Heroína!",
-      "slug": "mesmo-sendo-a-vila-vou-me-tornar-a-heroina",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18468,
-      "nome": "Figurantes São os Primeiros a Serem Abandonados",
-      "slug": "figurantes-sao-os-primeiros-a-serem-abandonados",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18467,
-      "nome": "Imperatriz? Imperatriz!",
-      "slug": "imperatriz-imperatriz",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18466,
-      "nome": "A Protagonista Feminina Éminence Grise Está Tentando Me Fazer Sua Madrasta",
-      "slug": "a-protagonista-feminina-eminence-grise-esta-tentando-me-fazer-sua-madrasta",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18459,
-      "nome": "O Poderoso Mestre é Louco por Mim",
-      "slug": "o-poderoso-mestre-e-louco-por-mim",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18458,
-      "nome": "Saia, Romeu.",
-      "slug": "saia-romeu",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18456,
-      "nome": "Desobedeça ao Duque se Você Ousar",
-      "slug": "desobedeca-ao-duque-se-voce-ousar",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18455,
-      "nome": "Não Confie na Protagonista Feminina",
-      "slug": "nao-confie-na-protagonista-feminina",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18454,
-      "nome": "Coroando Meu Príncipe Feroz",
-      "slug": "coroando-meu-principe-feroz",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18453,
-      "nome": "Criador De Vilãs",
-      "slug": "criador-de-vilas",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18452,
-      "nome": "Coração de Apolo",
-      "slug": "coracao-de-apolo",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18451,
-      "nome": "Concentração de Malícia",
-      "slug": "concentracao-de-malicia",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18450,
-      "nome": "Eu Não Era a Cinderela",
-      "slug": "eu-nao-era-a-cinderela",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18449,
-      "nome": "Capitão! Onde fica esse campo de batalha?",
-      "slug": "capitao-onde-fica-esse-campo-de-batalha",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18448,
-      "nome": "Cuidado com os Irmãos!",
-      "slug": "cuidado-com-os-irmaos",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18447,
-      "nome": "Inverno Negro",
-      "slug": "inverno-negro",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18445,
-      "nome": "Pequeno Urso Yu e Coelha Xu",
-      "slug": "pequeno-urso-yu-e-coelha-xu",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18444,
-      "nome": " Sob a Flor Caída",
-      "slug": "sob-a-flor-caida",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18443,
-      "nome": "Transformando o Tigre em Gatinho",
-      "slug": "transformando-o-tigre-em-gatinho",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18442,
-      "nome": "Como Disse Meu Marido, Trouxe Um Amante",
-      "slug": "como-disse-meu-marido-trouxe-um-amante",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18441,
-      "nome": "Sou Eu a Filha?",
-      "slug": "sou-eu-a-filha",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18424,
-      "nome": "As Mentiras se Tornaram Você",
-      "slug": "as-mentiras-se-tornaram-voce",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18423,
-      "nome": "A Vilã precisa de um Tirano",
-      "slug": "a-vila-precisa-de-um-tirano",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18422,
-      "nome": "A Santa Escondida",
-      "slug": "a-santa-escondida",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18421,
-      "nome": "A Salvadora Favorita",
-      "slug": "a-salvadora-favorita",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18420,
-      "nome": "Um Sinal de Repetição",
-      "slug": "um-sinal-de-repeticao",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18419,
-      "nome": "A Princesa Tirana Quer Se Casar",
-      "slug": "a-princesa-tirana-quer-se-casar",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18418,
-      "nome": "A Princesa Floresce como uma Flor Maluca",
-      "slug": "a-princesa-floresce-como-uma-flor-maluca",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18417,
-      "nome": "A Noiva Secreta do Leão Branco",
-      "slug": "a-noiva-secreta-do-leao-branco",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18416,
-      "nome": "A Milionária Divorciada",
-      "slug": "a-milionaria-divorciada",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18415,
-      "nome": "O Pássaro de um Rei Goblin",
-      "slug": "o-passaro-de-um-rei-goblin",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18414,
-      "nome": "Uma Empregada Capaz",
-      "slug": "uma-empregada-capaz",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18413,
-      "nome": "Queijo na Armadilha",
-      "slug": "queijo-na-armadilha",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18412,
-      "nome": "Jacinto Púrpura",
-      "slug": "jacinto-purpura",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18411,
-      "nome": "Eu Me Tornei uma Figurante Miserável em uma História de Cura",
-      "slug": "eu-me-tornei-uma-figurante-miseravel-em-uma-historia-de-cura",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18410,
-      "nome": "Nascida como a Filha de uma Humilde Concubina",
-      "slug": "nascida-como-a-filha-de-uma-humilde-concubina",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18409,
-      "nome": "Criando os filhos do Protagonista",
-      "slug": "criando-os-filhos-do-protagonista",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18408,
-      "nome": "Meus 4 Maridos!",
-      "slug": "meus-4-maridos",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18407,
-      "nome": "Oh! Nossa!",
-      "slug": "oh-nossa",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18406,
-      "nome": "Minha Vida como uma Empregada da Torre Trancada com o Príncipe",
-      "slug": "minha-vida-como-uma-empregada-da-torre-trancada-com-o-principe",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18405,
-      "nome": "Meu Pai é o Inimigo da Minha Vida Passada?",
-      "slug": "meu-pai-e-o-inimigo-da-minha-vida-passada",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18404,
-      "nome": "O Motivo pelo qual Ophelia não Consegue Escapar do Duque",
-      "slug": "o-motivo-pelo-qual-ophelia-nao-consegue-escapar-do-duque",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18403,
-      "nome": "Eu Criei os Vilões com Amor",
-      "slug": "eu-criei-os-viloes-com-amor-3428",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18401,
-      "nome": "Ohh, Chama a Policia Ai! Porque Essa Morena Acabou de Roubar o Meu Coração",
-      "slug": "ohh-chama-a-policia-ai-porque-essa-morena-acabou-de-roubar-o-meu-coracao",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18400,
-      "nome": "Hawar no Jardim de Inverno",
-      "slug": "hawar-no-jardim-de-inverno",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18399,
-      "nome": "Verdadeira Beleza",
-      "slug": "verdadeira-beleza",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18394,
-      "nome": "Iris a Dama e o Aparelho",
-      "slug": "iris-a-dama-e-o-aparelho",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18393,
-      "nome": "Sou A Irmã Mais Velha De Um Canalha",
-      "slug": "sou-a-irma-mais-velha-de-um-canalha",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18392,
-      "nome": "Nem Todo Mundo Pode Mudar A História Original",
-      "slug": "nem-todo-mundo-pode-mudar-a-historia-original",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18391,
-      "nome": "Lua Negra: O Altar de Sangue",
-      "slug": "lua-negra-o-altar-de-sangue",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18390,
-      "nome": "Se Tocar No Meu Irmão, Você Estará Morto",
-      "slug": "se-tocar-no-meu-irmao-voce-estara-morto",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18389,
-      "nome": "Eu vou Viver Minha Vida como eu Quiser",
-      "slug": "eu-vou-viver-minha-vida-como-eu-quiser",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18388,
-      "nome": "Eu Pedi o Papa em Casamento",
-      "slug": "eu-pedi-o-papa-em-casamento",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18387,
-      "nome": "A noiva Obsidiana",
-      "slug": "a-noiva-obsidiana-2644",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18386,
-      "nome": "Minha Família Está Obcecada por Mim",
-      "slug": "minha-familia-esta-obcecada-por-mim",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18385,
-      "nome": "Como Caçar sua Mestra",
-      "slug": "como-cacar-sua-mestra",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18384,
-      "nome": "Cadê Meus Pais?",
-      "slug": "cade-meus-pais",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18383,
-      "nome": "A Heroína Secreta de Sua Majestade.",
-      "slug": "a-heroina-secreta-de-sua-majestade",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18382,
-      "nome": "O tirano possessivo e a gata sonolenta",
-      "slug": "o-tirano-possessivo-e-a-gata-sonolenta",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18381,
-      "nome": "A Justiça de uma Lady Vilã",
-      "slug": "a-justica-de-uma-lady-vila",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18380,
-      "nome": "Em Busca da Alvorada",
-      "slug": "em-busca-da-alvorada",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18378,
-      "nome": "A Preciosa Filha do Maior Vilão das Artes Marciais",
-      "slug": "a-preciosa-filha-do-maior-vilao-das-artes-marciais",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18377,
-      "nome": "Este é um casamento obviamente fraudulento",
-      "slug": "este-e-um-casamento-obviamente-fraudulento",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18376,
-      "nome": "Esta Vilã Quer o Divórcio",
-      "slug": "esta-vila-quer-o-divorcio",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18375,
-      "nome": "Solhwa de Ellin",
-      "slug": "solhwa-de-ellin",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18374,
-      "nome": "A Salvadora do Dragão",
-      "slug": "a-salvadora-do-dragao",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18373,
-      "nome": "A Princesa Falsa Dominou o Coelho",
-      "slug": "a-princesa-falsa-dominou-o-coelho",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18372,
-      "nome": "Meu Marido, Minha Irmã e Eu",
-      "slug": "meu-marido-minha-irma-e-eu",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18371,
-      "nome": "A Guardiã do Tirano é a Bruxa Má",
-      "slug": "a-guardia-do-tirano-e-a-bruxa-ma",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18370,
-      "nome": "Uma Existência Amada",
-      "slug": "uma-existencia-amada",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18369,
-      "nome": "Lições Após a Escola para Maçãs Imaturas",
-      "slug": "licoes-apos-a-escola-para-macas-imaturas",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18368,
-      "nome": "Eu domestiquei o protagonista com meus punhos",
-      "slug": "eu-domestiquei-o-protagonista-com-meus-punhos",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18367,
-      "nome": "Amor do Sultão",
-      "slug": "amor-do-sultao",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18366,
-      "nome": "Meus Parentes estão Obcecados Por Mim",
-      "slug": "meus-parentes-estao-obcecados-por-mim",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18358,
-      "nome": "A Duquesa Monstro e Princesa Contratada",
-      "slug": "a-duquesa-monstro-e-princesa-contratada",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18357,
-      "nome": "Eu Vim Para Destruir!",
-      "slug": "eu-vim-para-destruir",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18356,
-      "nome": "Uma estrela que surge durante dia",
-      "slug": "uma-estrela-que-surge-durante-dia",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18355,
-      "nome": "5500 Sombras do Rei Demônio",
-      "slug": "5500-sombras-do-rei-demonio",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18354,
-      "nome": "Querida, Por Que Se Arrepende?",
-      "slug": "querida-por-que-se-arrepende",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18353,
-      "nome": "Bebê Dragão",
-      "slug": "bebe-dragao",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18352,
-      "nome": "Ajudando o Irmão e Faturando Um Boy",
-      "slug": "ajudando-o-irmao-e-faturando-um-boy",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18351,
-      "nome": "Sou O Vilão, Mas Estou Sendo Favorecido",
-      "slug": "sou-o-vilao-mas-estou-sendo-favorecido",
-      "formato": "Shoujo"
-    },
-    {
-      "id": 18350,
-      "nome": "Quando O Lobo Negro Me Chama",
-      "slug": "quando-o-lobo-negro-me-chama",
-      "formato": "Shoujo"
+      "id": 19354,
+      "nome": "Guarda Prisional Zero",
+      "slug": "guarda-prisional-zero",
+      "formato": "Comic"
     },
     {
       "id": 19352,
@@ -7590,12 +7588,6 @@
       "id": 18878,
       "nome": "Acumulador de Características",
       "slug": "acumulador-de-caracteristicas",
-      "formato": "Comic"
-    },
-    {
-      "id": 18877,
-      "nome": "Laboratório Maravilhoso",
-      "slug": "laboratorio-maravilhoso",
       "formato": "Comic"
     },
     {
@@ -8907,6 +8899,12 @@
       "formato": "Yaoi"
     },
     {
+      "id": 18350,
+      "nome": "Quando O Lobo Negro Me Chama",
+      "slug": "quando-o-lobo-negro-me-chama",
+      "formato": "Shoujo"
+    },
+    {
       "id": 18349,
       "nome": "Ouvi Dizer Que Você Desligou A Configuração De Dor?",
       "slug": "ouvi-dizer-que-voce-desligou-a-configuracao-de-dor",
@@ -9447,12 +9445,6 @@
       "formato": "Shoujo"
     },
     {
-      "id": 17665,
-      "nome": "Cavaleira da Flor de Gelo",
-      "slug": "cavaleira-da-flor-de-gelo",
-      "formato": "Shoujo"
-    },
-    {
       "id": 17662,
       "nome": "Dama Bebê",
       "slug": "dama-bebe",
@@ -9805,6 +9797,12 @@
       "nome": "Tornando-se rainha aos seis anos de idade",
       "slug": "tornando-se-rainha-aos-seis-anos-de-idade",
       "formato": "Shoujo"
+    },
+    {
+      "id": 18877,
+      "nome": "Laboratório Maravilhoso",
+      "slug": "laboratorio-maravilhoso",
+      "formato": "Comic"
     },
     {
       "id": 18876,
@@ -10698,12 +10696,6 @@
       "id": 18696,
       "nome": "O Melhor do Mundo",
       "slug": "o-melhor-do-mundo",
-      "formato": "Comic"
-    },
-    {
-      "id": 18695,
-      "nome": "O Assassino Mais Forte é Transferido Para Outro Mundo Com Toda a Sua Classe",
-      "slug": "o-assassino-mais-forte-e-transferido-para-outro-mundo-com-toda-a-sua-classe",
       "formato": "Comic"
     },
     {
@@ -12507,6 +12499,12 @@
       "formato": "Shoujo"
     },
     {
+      "id": 18695,
+      "nome": "O Assassino Mais Forte é Transferido Para Outro Mundo Com Toda a Sua Classe",
+      "slug": "o-assassino-mais-forte-e-transferido-para-outro-mundo-com-toda-a-sua-classe",
+      "formato": "Comic"
+    },
+    {
       "id": 18694,
       "nome": "Ego do Dragão",
       "slug": "ego-do-dragao",
@@ -13398,12 +13396,6 @@
       "id": 17515,
       "nome": "O Melhor Curandeiro da Academia de Magia Ofensiva",
       "slug": "o-melhor-curandeiro-da-academia-de-magia-ofensiva",
-      "formato": "Comic"
-    },
-    {
-      "id": 17513,
-      "nome": "Minha Janela de Status Entrou em Greve",
-      "slug": "minha-janela-de-status-entrou-em-greve",
       "formato": "Comic"
     },
     {
@@ -14985,6 +14977,12 @@
       "formato": "Shoujo"
     },
     {
+      "id": 17513,
+      "nome": "Minha Janela de Status Entrou em Greve",
+      "slug": "minha-janela-de-status-entrou-em-greve",
+      "formato": "Comic"
+    },
+    {
       "id": 17512,
       "nome": "O Grande Governante",
       "slug": "o-grande-governante",
@@ -15875,12 +15873,6 @@
     {
       "id": 2848,
       "nome": "Reencarnado no Mundo Aquático como Wu Dalang mais forte",
-      "slug": "",
-      "formato": "Comic"
-    },
-    {
-      "id": 2847,
-      "nome": "Castelo 2: Pináculo",
       "slug": "",
       "formato": "Comic"
     },
@@ -16785,6 +16777,12 @@
       "formato": "Shoujo"
     },
     {
+      "id": 2847,
+      "nome": "Castelo 2: Pináculo",
+      "slug": "",
+      "formato": "Comic"
+    },
+    {
       "id": 2846,
       "nome": "O que o nosso herói está fazendo?",
       "slug": "",
@@ -17679,12 +17677,6 @@
       "formato": "Comic"
     },
     {
-      "id": 2264,
-      "nome": "Pacto de Aço",
-      "slug": "",
-      "formato": "Comic"
-    },
-    {
       "id": 844,
       "nome": "Perfeito",
       "slug": "",
@@ -18233,7 +18225,7 @@
     {
       "id": 731,
       "nome": "Como Esconder o Filho do Imperador",
-      "slug": "",
+      "slug": "como-esconder-o-filho-do-imperador",
       "formato": "Shoujo"
     },
     {
@@ -18583,6 +18575,12 @@
       "nome": "Me Tornei a Mãe do Protagonista",
       "slug": "",
       "formato": "Shoujo"
+    },
+    {
+      "id": 2264,
+      "nome": "Pacto de Aço",
+      "slug": "",
+      "formato": "Comic"
     },
     {
       "id": 2263,
@@ -19479,12 +19477,6 @@
       "formato": "Comic"
     },
     {
-      "id": 2070,
-      "nome": "99 Heroínas no Apocalipse: A Ascensão de Hao Lanren",
-      "slug": "",
-      "formato": "Comic"
-    },
-    {
       "id": 667,
       "nome": "Me Tornei a Família do Vilão",
       "slug": "",
@@ -20087,7 +20079,7 @@
     {
       "id": 542,
       "nome": "Ser Uma Vilã Não É Muito Melhor?",
-      "slug": "",
+      "slug": "ser-uma-vila-nao-e-muito-melhor",
       "formato": "Shoujo"
     },
     {
@@ -20383,6 +20375,12 @@
       "nome": "O protagonista Obcecado me tornou a Principal",
       "slug": "",
       "formato": "Shoujo"
+    },
+    {
+      "id": 2070,
+      "nome": "99 Heroínas no Apocalipse: A Ascensão de Hao Lanren",
+      "slug": "",
+      "formato": "Comic"
     },
     {
       "id": 2069,
@@ -21279,12 +21277,6 @@
       "formato": "Comic"
     },
     {
-      "id": 1868,
-      "nome": "Dizem que Eu Nasci como Filha do Rei",
-      "slug": "dizem-que-eu-nasci-como-filha-do-rei",
-      "formato": "Comic"
-    },
-    {
       "id": 461,
       "nome": "O Que Acontece Quando o Segundo Protagonista Masculino Entra em Greve",
       "slug": "",
@@ -21739,6 +21731,12 @@
       "nome": "A Vilã Reverte a Ampulheta",
       "slug": "",
       "formato": "Shoujo"
+    },
+    {
+      "id": 1868,
+      "nome": "Dizem que Eu Nasci como Filha do Rei",
+      "slug": "dizem-que-eu-nasci-como-filha-do-rei",
+      "formato": "Comic"
     },
     {
       "id": 1867,
