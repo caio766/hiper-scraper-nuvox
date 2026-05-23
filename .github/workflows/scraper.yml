@@ -3,7 +3,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  # O JOB MESTRE QUE ACORDA PRIMEIRO
   setup_master:
     runs-on: ubuntu-latest
     outputs:
@@ -13,28 +12,30 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+      - name: Instalando Motores (Setup)
+        run: npm install
       - id: get_token
         name: Executando Login Mestre
         run: |
           TOKEN=$(node master_login.js)
           echo "token=$TOKEN" >> "$GITHUB_OUTPUT"
 
-  # AS 20 MÁQUINAS OPERÁRIAS
   scrape_mangas:
-    needs: setup_master # Só liga depois que o Mestre terminar
+    needs: setup_master
     runs-on: ubuntu-latest
     strategy:
       matrix:
         part: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
       fail-fast: false
     env:
-      # Injeta o token aqui para todos usarem!
       TOKEN_AUTH: ${{ needs.setup_master.outputs.master_token }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+      - name: Instalando Motores de Proxy (Jobs)
+        run: npm install
       - run: mkdir -p resultados
       - run: node bot_scraper.js ${{ matrix.part }}
       - uses: actions/upload-artifact@v4
