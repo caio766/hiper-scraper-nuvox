@@ -16,11 +16,8 @@ try {
     }
 } catch (e) {}
 
-// 🔥 NOVO: Carregando a memória da operação anterior
 let progressoAnterior = {};
-try {
-    progressoAnterior = JSON.parse(fs.readFileSync('progresso_obras.json', 'utf-8'));
-} catch(e) { console.log("⚠️ Mapa de progresso não encontrado. Iniciando do zero."); }
+try { progressoAnterior = JSON.parse(fs.readFileSync('progresso_obras.json', 'utf-8')); } catch(e) { }
 
 let indiceProxy = 0;
 function getFetchOptions(headersBase, method = "GET") {
@@ -38,7 +35,7 @@ function getFetchOptions(headersBase, method = "GET") {
 }
 
 async function iniciarScraper() {
-    console.log(`🤖 [Job ${NUMERO_JOB}] Iniciado. Sistema de Evasão Ativo!`);
+    console.log(`🤖 [Job ${NUMERO_JOB}] Iniciado. Evasão Ativa | 🚀 VELOCIDADE 1.5x (133ms)`);
     
     if (!TOKEN_AUTH) return console.log("❌ ERRO FATAL: Token Mestre não recebido!");
 
@@ -67,11 +64,8 @@ async function iniciarScraper() {
             const dadosObra = { obra_id: obra.obr_id, titulo: obra.obr_nome, capitulos: [] };
 
             for (const cap of capitulos) {
-                if (Date.now() - tempoInicio > LIMITE_TEMPO_MS) {
-                    tempoEsgotado = true; break; 
-                }
+                if (Date.now() - tempoInicio > LIMITE_TEMPO_MS) { tempoEsgotado = true; break; }
 
-                // 🔥 NOVO: Auditoria Cirúrgica. Se já temos o capítulo no Banco Central, ele é pulado instantaneamente.
                 if (progressoAnterior[idObra] && progressoAnterior[idObra].includes(cap.cap_num)) {
                     console.log(`   ⏭️ Cap ${cap.cap_num} já extraído. Pulando...`);
                     continue;
@@ -95,15 +89,12 @@ async function iniciarScraper() {
                 const respCdn = await fetch(`https://cdn.mediocrescan.com/obras/${idObra}/capitulos/${cap.cap_num}/${capUuid}.json`, getFetchOptions(headersBase));
                 if (respCdn.ok) {
                     const imagens = await respCdn.json();
-                    dadosObra.capitulos.push({ 
-                        numero: cap.cap_num, 
-                        paginas: imagens.map(img => `https://cdn.mediocrescan.com/${img.url}`) 
-                    });
+                    dadosObra.capitulos.push({ numero: cap.cap_num, paginas: imagens.map(img => `https://cdn.mediocrescan.com/${img.url}`) });
                     console.log(`   ✅ Cap ${cap.cap_num} extraído!`);
                 }
-                await new Promise(r => setTimeout(r, 200)); 
+                // 🔥 VELOCIDADE 1.5x APLICADA AQUI
+                await new Promise(r => setTimeout(r, 133)); 
             }
-            // Só adiciona a obra ao JSON final se ela baixou algum capítulo novo
             if (dadosObra.capitulos.length > 0) resultadoFinal.push(dadosObra);
             if (tempoEsgotado) break; 
 
