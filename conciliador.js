@@ -1,20 +1,30 @@
-﻿const fs = require('fs');
+﻿import fs from 'fs';
+import { renameSync, writeFileSync, readFileSync, readdirSync, existsSync } from 'fs';
 
-console.log("📚 Lendo o Banco Central existente...");
+console.log("🔍 Analisando novos dados baixados...");
+
 let banco = [];
-try { banco = JSON.parse(fs.readFileSync('banco_central.json', 'utf-8')); } catch(e) { console.log("Erro crítico no banco."); process.exit(1); }
+try { 
+    banco = JSON.parse(readFileSync('banco_central.json', 'utf-8')); 
+} catch(e) { 
+    console.log("❌ Erro fatal: Banco Central ilegível."); 
+    process.exit(1); 
+}
 
 let progresso = {};
-try { progresso = JSON.parse(fs.readFileSync('progresso_obras.json', 'utf-8')); } catch(e) { progresso = {}; }
+try { 
+    progresso = JSON.parse(readFileSync('progresso_obras.json', 'utf-8')); 
+} catch(e) { progresso = {}; }
 
-const arquivos = fs.existsSync('resultados_baixados') ? fs.readdirSync('resultados_baixados').filter(f => f.endsWith('.json')) : [];
+const pastaResultados = 'resultados_baixados';
+const arquivos = existsSync(pastaResultados) ? readdirSync(pastaResultados).filter(f => f.endsWith('.json')) : [];
 let novosCaps = 0;
 
 arquivos.forEach(arq => {
     try {
-        const txt = fs.readFileSync(`resultados_baixados/${arq}`, 'utf-8');
-        if (!txt.trim()) return; // Ignora arquivos vazios sem explodir
-        const extraido = JSON.parse(txt);
+        const conteudo = readFileSync(`${pastaResultados}/${arq}`, 'utf-8');
+        if (!conteudo.trim()) return;
+        const extraido = JSON.parse(conteudo);
         
         extraido.forEach(obraNova => {
             let obraBanco = banco.find(o => o.obra_id == obraNova.obra_id);
@@ -22,25 +32,27 @@ arquivos.forEach(arq => {
                 obraBanco = { obra_id: obraNova.obra_id, titulo: obraNova.titulo, capitulos: [] };
                 banco.push(obraBanco);
             }
-            
             if (!progresso[obraNova.obra_id]) progresso[obraNova.obra_id] = [];
 
             obraNova.capitulos.forEach(capNovo => {
-                const jaExiste = obraBanco.capitulos.some(c => c.numero == capNovo.numero);
-                if (!jaExiste) {
+                if (!obraBanco.capitulos.some(c => c.numero == capNovo.numero)) {
                     obraBanco.capitulos.push(capNovo);
                     progresso[obraNova.obra_id].push(capNovo.numero);
                     novosCaps++;
                 }
             });
         });
-    } catch(e) {
-        console.log(`❌ Pulando arquivo corrompido/vazio do GitHub: ${arq}`);
-    }
+    } catch(e) { console.log(`⚠️ Pulando arquivo corrompido: ${arq}`); }
 });
 
-fs.writeFileSync('banco_central.json', JSON.stringify(banco, null, 2), 'utf-8');
-fs.writeFileSync('progresso_obras.json', JSON.stringify(progresso, null, 2), 'utf-8');
-
-console.log("✅ Conciliação Concluída!");
-console.log(`📈 ${novosCaps} novos capítulos foram soldados no Banco Central.`);
+// ESCREVE USANDO TÉCNICA ATÔMICA (TMP -> ORIGINAL)
+try {
+    writeFileSync('banco_central.json.tmp', JSON.stringify(banco, null, 2));
+    writeFileSync('progresso_obras.json.tmp', JSON.stringify(progresso, null, 2));
+    renameSync('banco_central.json.tmp', 'banco_central.json');
+    renameSync('progresso_obras.json.tmp', 'progresso_obras.json');
+    console.log(`✅ Sucesso! ${novosCaps} capítulos soldados.`);
+} catch (err) {
+    console.error("🚨 Falha ao salvar!", err.message);
+    process.exit(1);
+}
