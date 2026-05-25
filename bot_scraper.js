@@ -26,7 +26,7 @@ function getFetchOptions(headersBase, method = "GET") {
     
     // 🔄 ROTAÇÃO INTELIGENTE DE IP (ROUND-ROBIN)
     const proxyAtual = proxiesDoJob[indiceProxy % proxiesDoJob.length];
-    indiceProxy++; // Pula para o próximo IP na próxima chamada
+    indiceProxy++; 
     
     const partes = proxyAtual.split(':');
     if (partes.length === 4) {
@@ -38,7 +38,7 @@ function getFetchOptions(headersBase, method = "GET") {
 }
 
 async function iniciarScraper() {
-    console.log(`🚀 [Job ${NUMERO_JOB}] MODO ATAQUE TOTAL | DELAY: 30ms | PROXIES (Rotação Ativa): ${proxiesDoJob.length}`);
+    console.log(`🚀 [Job ${NUMERO_JOB}] MODO HYPER NITRO | DELAY: 20ms | PROXIES: ${proxiesDoJob.length}`);
     
     if (!TOKEN_AUTH) return console.log("❌ ERRO FATAL: Token Mestre não recebido!");
 
@@ -88,8 +88,8 @@ async function iniciarScraper() {
                         paginas: imagens.map(img => `https://cdn.mediocrescan.com/${img.url}`) 
                     });
                 }
-                // 🔥 DELAY DE 30ms
-                await new Promise(r => setTimeout(r, 30)); 
+                // 🔥 DELAY DE 20ms: VELOCIDADE EXTREMA
+                await new Promise(r => setTimeout(r, 20)); 
             }
             if (dadosObra.capitulos.length > 0) {
                 resultadoFinal.push(dadosObra);
