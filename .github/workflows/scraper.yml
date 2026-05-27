@@ -1,4 +1,4 @@
-﻿name: Hiper Scraper Nuvoxtoons
+name: Hiper Scraper Nuvoxtoons - Full Cloud Auto-Loop
 on:
   workflow_dispatch:
 
@@ -12,10 +12,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Instalando Motores (Setup)
-        run: npm install
+      - run: npm install
       - id: get_token
-        name: Executando Login Mestre
         run: |
           TOKEN=$(node master_login.js)
           echo "token=$TOKEN" >> "$GITHUB_OUTPUT"
@@ -34,12 +32,67 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Instalando Motores de Proxy (Jobs)
-        run: npm install
+      - run: npm install
       - run: mkdir -p resultados
       - run: node bot_scraper.js ${{ matrix.part }}
       - uses: actions/upload-artifact@v4
         with:
           name: Extrato_Lote_${{ matrix.part }}
           path: resultados/resultado_job_${{ matrix.part }}.json
-          retention-days: 3
+          retention-days: 1
+
+  consolidate_and_loop:
+    needs: scrape_mangas
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Baixando todos os resultados da mineração
+        uses: actions/download-artifact@v4
+        with:
+          path: resultados_baixados
+          merge-multiple: true
+
+      - name: Instalando Dependências
+        run: npm install
+
+      - name: Consolidando Banco Central (High Memory Mode)
+        run: node --max-old-space-size=8192 conciliador.js
+
+      - name: Verificando se houve progresso
+        id: check_progress
+        run: |
+          if git diff --quiet banco_central.json; then
+            echo "continue=false" >> $GITHUB_ENV
+            echo "✅ Meta atingida ou nenhum dado novo. Parando loop."
+          else
+            echo "continue=true" >> $GITHUB_ENV
+            echo "📈 Novos dados encontrados. Continuando..."
+          fi
+
+      - name: Salvando progresso no Repositório
+        if: env.continue == 'true'
+        run: |
+          git config --global user.name "Nuvox Cloud Bot"
+          git config --global user.email "bot@nuvoxtoons.com"
+          git add banco_central.json progresso_obras.json
+          git commit -m "☁️ CLOUD-LOOP: Banco atualizado via Actions (High Memory)"
+          git push
+
+      - name: Disparando Próxima Onda (Auto-Recursão)
+        if: env.continue == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "⏳ Aguardando 1 minuto para resfriamento..."
+          sleep 60
+          gh workflow run scraper.yml
