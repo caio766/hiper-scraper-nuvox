@@ -1,6 +1,8 @@
 name: Hiper Scraper Nuvoxtoons - Full Cloud Auto-Loop
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 */2 * * *"
 
 jobs:
   setup_master:
@@ -46,6 +48,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      actions: write
     steps:
       - uses: actions/checkout@v4
         with:
@@ -71,28 +74,23 @@ jobs:
       - name: Verificando se houve progresso
         id: check_progress
         run: |
-          if git diff --quiet banco_central.json; then
-            echo "continue=false" >> $GITHUB_ENV
-            echo "✅ Meta atingida ou nenhum dado novo. Parando loop."
-          else
-            echo "continue=true" >> $GITHUB_ENV
-            echo "📈 Novos dados encontrados. Continuando..."
-          fi
-
-      - name: Salvando progresso no Repositório
-        if: env.continue == 'true'
-        run: |
           git config --global user.name "Nuvox Cloud Bot"
           git config --global user.email "bot@nuvoxtoons.com"
-          git add banco_central.json progresso_obras.json
-          git commit -m "☁️ CLOUD-LOOP: Banco atualizado via Actions (High Memory)"
-          git push
+          if git diff --quiet banco_central.json; then
+            echo "continue=false" >> $GITHUB_ENV
+            echo "✅ Meta atingida. Parando."
+          else
+            echo "continue=true" >> $GITHUB_ENV
+            git add banco_central.json progresso_obras.json
+            git commit -m "☁️ CLOUD-LOOP: Atualização Automática"
+            git push
+          fi
 
       - name: Disparando Próxima Onda (Auto-Recursão)
         if: env.continue == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "⏳ Aguardando 1 minuto para resfriamento..."
-          sleep 60
+          echo "🚀 Autorizado! Disparando nova onda..."
+          sleep 30
           gh workflow run scraper.yml
