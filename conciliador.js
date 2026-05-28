@@ -1,58 +1,59 @@
-﻿import fs from 'fs';
-import { renameSync, writeFileSync, readFileSync, readdirSync, existsSync } from 'fs';
+import fs from 'fs';
+import path from 'path';
 
-console.log("🔍 Analisando novos dados baixados...");
+console.log("🧠 Iniciando consolidação com suporte a arquivos gigantes (Stream)...");
 
-let banco = [];
-try { 
-    banco = JSON.parse(readFileSync('banco_central.json', 'utf-8')); 
-} catch(e) { 
-    console.log("❌ Erro fatal: Banco Central ilegível."); 
-    process.exit(1); 
-}
+try {
+    console.log("📥 Lendo banco central atual...");
+    let bancoCentral = [];
+    if (fs.existsSync('banco_central.json')) {
+        const dados = fs.readFileSync('banco_central.json', 'utf-8');
+        bancoCentral = JSON.parse(dados);
+    }
+    
+    // Mapeia para fundir os dados sem duplicar
+    const mapaObras = new Map();
+    bancoCentral.forEach(obra => mapaObras.set(obra.obra_id, obra));
 
-let progresso = {};
-try { 
-    progresso = JSON.parse(readFileSync('progresso_obras.json', 'utf-8')); 
-} catch(e) { progresso = {}; }
-
-const pastaResultados = 'resultados_baixados';
-const arquivos = existsSync(pastaResultados) ? readdirSync(pastaResultados).filter(f => f.endsWith('.json')) : [];
-let novosCaps = 0;
-
-arquivos.forEach(arq => {
-    try {
-        const conteudo = readFileSync(`${pastaResultados}/${arq}`, 'utf-8');
-        if (!conteudo.trim()) return;
-        const extraido = JSON.parse(conteudo);
+    const pastaResultados = './resultados_baixados';
+    if (fs.existsSync(pastaResultados)) {
+        const arquivos = fs.readdirSync(pastaResultados).filter(f => f.endsWith('.json'));
+        console.log(`📂 Encontrados ${arquivos.length} lotes de resultados da nuvem.`);
         
-        extraido.forEach(obraNova => {
-            let obraBanco = banco.find(o => o.obra_id == obraNova.obra_id);
-            if (!obraBanco) {
-                obraBanco = { obra_id: obraNova.obra_id, titulo: obraNova.titulo, capitulos: [] };
-                banco.push(obraBanco);
-            }
-            if (!progresso[obraNova.obra_id]) progresso[obraNova.obra_id] = [];
-
-            obraNova.capitulos.forEach(capNovo => {
-                if (!obraBanco.capitulos.some(c => c.numero == capNovo.numero)) {
-                    obraBanco.capitulos.push(capNovo);
-                    progresso[obraNova.obra_id].push(capNovo.numero);
-                    novosCaps++;
-                }
+        arquivos.forEach(arq => {
+            const lote = JSON.parse(fs.readFileSync(path.join(pastaResultados, arq), 'utf-8'));
+            lote.forEach(novaObra => {
+                mapaObras.set(novaObra.obra_id, novaObra);
             });
         });
-    } catch(e) { console.log(`⚠️ Pulando arquivo corrompido: ${arq}`); }
-});
+    }
 
-// ESCREVE USANDO TÉCNICA ATÔMICA (TMP -> ORIGINAL)
-try {
-    writeFileSync('banco_central.json.tmp', JSON.stringify(banco, null, 2));
-    writeFileSync('progresso_obras.json.tmp', JSON.stringify(progresso, null, 2));
-    renameSync('banco_central.json.tmp', 'banco_central.json');
-    renameSync('progresso_obras.json.tmp', 'progresso_obras.json');
-    console.log(`✅ Sucesso! ${novosCaps} capítulos soldados.`);
-} catch (err) {
-    console.error("🚨 Falha ao salvar!", err.message);
+    console.log("💾 Salvando novo banco central (Modo Stream anti-limite)...");
+    const bancoAtualizado = Array.from(mapaObras.values());
+    
+    // O SEGREDO ESTÁ AQUI: Abrimos um canal de escrita direto no disco
+    const stream = fs.createWriteStream('banco_central.json');
+    stream.write('[\n');
+    
+    const total = bancoAtualizado.length;
+    for (let i = 0; i < total; i++) {
+        // Converte e salva APENAS UMA OBRA por vez, burlando o limite do V8
+        stream.write(JSON.stringify(bancoAtualizado[i], null, 2));
+        if (i < total - 1) {
+            stream.write(',\n');
+        }
+    }
+    
+    stream.write('\n]');
+    stream.end();
+
+    stream.on('finish', () => {
+        console.log(`✅ Banco Central salvo com sucesso! Total de obras: ${total}`);
+        // Atualiza o arquivo de progresso para manter o repositório organizado
+        fs.writeFileSync('progresso_obras.json', JSON.stringify({ total_capturado: total }, null, 2));
+    });
+
+} catch (e) {
+    console.error("🚨 Falha ao salvar!", e.message);
     process.exit(1);
 }
